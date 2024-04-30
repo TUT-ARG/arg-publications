@@ -1,0 +1,11 @@
+output/
+cache/
+.idea/
+*.pyc
+srv.pid
+.DS_Store
+venv/
+
+# Vim swap files
+*.swp
+
