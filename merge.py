@@ -7,7 +7,6 @@ from pybtex.database.input import bibtex
 from unidecode import unidecode
 from pylatexenc.latexwalker import LatexWalker
 from pylatexenc.latex2text import LatexNodes2Text
-from IPython import embed
 import string
 
 
