@@ -1,6 +1,6 @@
 @inbook{2018,
     author = "Heittola, Toni and Cakir, Emre and Virtanen, Tuomas",
-    editor = "Virtanen, Tuomas and Plumbley, {Mark D.} and Ellis, Dan",
+    editor = "Virtanen, Tuomas and Plumbley, Mark D. and Ellis, Dan",
     title = "The machine learning approach for analysis of sound scenes and events",
     abstract = "This chapter explains the basic concepts in computational methods used for analysis of sound scenes and events. Even though the analysis tasks in many applications seem different, the underlying computational methods are typically based on the same principles. We explain the commonalities between analysis tasks such as sound event detection, sound scene classification, or audio tagging. We focus on the machine learning approach, where the sound categories (i.e., classes) to be analyzed are defined in advance. We explain the typical components of an analysis system, including signal pre-processing, feature extraction, and pattern classification. We also preset an example system based on multi-label deep neural networks, which has been found to be applicable in many analysis tasks discussed in this book. Finally, we explain the whole processing chain that involves developing computational audio analysis systems. {\textcopyright} Springer International Publishing AG 2018. All rights reserved.",
     year = "2018",
@@ -13,7 +13,7 @@
 }
 
 @inproceedings{2023,
-    author = {Khorrami, Khazar and {Cruz Blandon}, Maria and R{\"a}s{\"a}nen, Okko},
+    author = {Khorrami, Khazar and Cruz Blandon, Maria and R{\"a}s{\"a}nen, Okko},
     title = "Computational Insights to Acquisition of Phonemes, Words, and Word Meanings in Early Language: Sequential or Parallel Acquisition?",
     abstract = "Previous computational models of early language acquisition have shown how linguistic structure of speech can be acquired using auditory or audiovisual learning mechanisms. However, real infants have sustained access to both uni- and multimodal sensory experiences. Therefore, it is of interest how the uni- and multimodal learning mechanisms could operate in concert, and how their interplay might affect the acquisition dynamics of different linguistic representations. This paper explores these questions with a computational model capable of simultaneous auditory and audiovisual learning from speech and images. We study how the model{\textquoteright}s latent representations reflect phonemic, lexical, and semantic knowledge as a function of language experience. We also test how the findings vary with differential emphasis on the two learning mechanisms. As a result, we find phonemic learning always starting to emerge before lexical learning, followed by semantics. However, there is also notable overlap in their development. The same pattern emerges irrespectively of the emphasis on auditory or audiovisual learning. The result illustrates how the acquisition dynamics of linguistic representations are decoupled from the primary learning objectives (mechanisms) of the learner, and how the emergence of phonemes and words can be facilitated by both auditory and audiovisual learning in a synergetic manner.",
     year = "2023",
@@ -74,7 +74,7 @@
 }
 
 @article{2019_SP,
-    author = {Purwins, Hendrik and Li, Bo and Virtanen, Tuomas and Schl{\"u}ter, Jan and Chang, {Shuo Yiin} and Sainath, Tara},
+    author = {Purwins, Hendrik and Li, Bo and Virtanen, Tuomas and Schl{\"u}ter, Jan and Chang, Shuo Yiin and Sainath, Tara},
     title = "Deep Learning for Audio Signal Processing",
     abstract = "Given the recent surge in developments of deep learning, this paper provides a review of the state-of-the-art deep learning techniques for audio signal processing. Speech, music, and environmental sound processing are considered side-by-side, in order to point out similarities and differences between the domains, highlighting general methods, problems, key references, and potential for cross fertilization between areas. The dominant feature representations (in particular, log-mel spectra and raw waveform) and deep learning models are reviewed, including convolutional neural networks, variants of the long short-term memory architecture, as well as more audio-specific neural network models. Subsequently, prominent deep learning application areas are covered, i.e., audio recognition (automatic speech recognition, music information retrieval, environmental sound detection, localization and tracking) and synthesis and transformation (source separation, audio enhancement, generative models for speech, sound, and music synthesis). Finally, key issues and future questions regarding deep learning applied to audio signal processing are identified.",
     keywords = "audio enhancement, automatic speech recognition, connectionist temporal memory, Deep learning, environmental sounds, music information retrieval, source separation",
@@ -92,7 +92,7 @@
 }
 
 @inproceedings{2017_MLSP,
-    author = "Mimilakis, {Stylianos - Ioannis} and Drossos, Konstantinos and Virtanen, Tuomas and Schuller, Gerald",
+    author = "Mimilakis, Stylianos - Ioannis and Drossos, Konstantinos and Virtanen, Tuomas and Schuller, Gerald",
     title = "A Recurrent Encoder-Decoder Approach With Skip-Filtering Connections for Monaural Singing Voice Separation",
     abstract = "The objective of deep learning methods based on encoder-decoder architectures for music source separation is to approximate either ideal time-frequency masks or spectral representations of the target music source(s). The spectral representations are then used to derive time-frequency masks. In this work we introduce a method to directly learn time-frequency masks from an observed mixture magnitude spectrum. We employ recurrent neural networks and train them using prior knowledge only for the magnitude spectrum of the target source. To assess the performance of the proposed method, we focus on the task of singing voice separation. The results from an objective evaluation show that our proposed method provides comparable results to deep learning based methods which operate over complicated signal representations. Compared to previous methods that approximate time-frequency masks, our method has increased performance of signal to distortion ratio by an average of 3.8 dB.",
     year = "2017",
@@ -116,7 +116,7 @@
 }
 
 @inproceedings{2014,
-    author = "Baby, Deepak and Virtanen, Tuomas and Gemmeke, {Jort F.} and Barker, Thomas and {Van Hamme}, Hugo",
+    author = "Baby, Deepak and Virtanen, Tuomas and Gemmeke, Jort F. and Barker, Thomas and Van Hamme, Hugo",
     title = "Exemplar-based Noise Robust Automatic Speech Recognition using Modulation Spectrogram Features",
     note = "Contribution: organisation=sgn,FACT1=1<br/>Portfolio EDEND: 2015-01-12",
     year = "2014",
@@ -141,7 +141,7 @@
 }
 
 @inproceedings{2015_ICASSP,
-    author = "Barker, Thomas and Virtanen, Tuomas and Pontoppidan, {Niels Henrik}",
+    author = "Barker, Thomas and Virtanen, Tuomas and Pontoppidan, Niels Henrik",
     title = "Low-Latency Sound-Source-Separation using Non-Negative Matrix Factorisation with Coupled Analysis and Synthesis Dictionaries",
     abstract = "For real-time or close to real-time applications, sound source separation can be performed on-line, where new frames of incoming data for a mixture signal are processed as they arrive, at very low delay. We propose an approach which generates the separation filters for short synthesis frames to achieve low latency source separation, based on a compositional model mixture of the audio to be separated. Filter parameters are derived from a longer temporal context than the current processing frame through use of a longer analysis frame. A pair of dictionaries are used, one for analysis and one for reconstruction. With this approach we are able to increase separation performance at low latencies whilst retaining the low-latency provided by the use of short synthesis frames. The proposed data handling scheme and parameters can be adjusted to achieve real-time performance, given sufficient computational power. Low-latency output allows a human listener to use the results of such a separation scheme directly, without a perceptible delay. With the proposed method, separated source-to-distortion ratios (SDRs) can be improved by over 1 dB for latencies below 20 ms, without any affect on latency.",
     keywords = "low-latency, NMF, Non-negative matrix factorisation, real-time, source separation",
@@ -173,7 +173,7 @@
 }
 
 @inproceedings{2010_InterSpecch,
-    author = "Gemmeke, {Jort F.} and Virtanen, Tuomas",
+    author = "Gemmeke, Jort F. and Virtanen, Tuomas",
     title = "Artificial and online acquired noise dictionaries for noise robust ASR",
     note = "Contribution: organisation=sgn,FACT1=1; Interspeech ; Conference date: 01-01-1900",
     year = "2010",
@@ -283,7 +283,7 @@
 }
 
 @inproceedings{2004_ISCAS,
-    author = {Pirinen, {T. W.} and Yli-Hietanen, J. and Pertil{\"a}, P. and Visa, A.},
+    author = {Pirinen, T. W. and Yli-Hietanen, J. and Pertil{\"a}, P. and Visa, A.},
     title = "Detection and compensation of sensor malfunction in time delay based direction of arrival estimation",
     note = "ISBN 0-7803-8251-X, 0-7803-8252-8 (CD-ROM)<br/>Contribution: organisation=sgn,FACT1=1",
     year = "2004",
@@ -303,7 +303,7 @@
 }
 
 @inproceedings{2010_EUSIPCO,
-    author = {Keronen, Sami and Remes, Ulpu and Palom{\"a}ki, {Kalle J.} and Virtanen, Tuomas and Kurimo, Mikko},
+    author = {Keronen, Sami and Remes, Ulpu and Palom{\"a}ki, Kalle J. and Virtanen, Tuomas and Kurimo, Mikko},
     title = "Comparison of noise robust methods in large vocabulary speech recognition",
     note = "Contribution: organisation=sgn,FACT1=1",
     year = "2010",
@@ -313,7 +313,7 @@
 }
 
 @inproceedings{2019_WASPAA,
-    author = "Green, {Marc C.} and Adavanne, Sharath and Murphy, Damian and Virtanen, Tuomas",
+    author = "Green, Marc C. and Adavanne, Sharath and Murphy, Damian and Virtanen, Tuomas",
     title = "Acoustic Scene Classification Using Higher-Order Ambisonic Features",
     abstract = "This paper investigates the potential of using higher-order Ambisonic features to perform acoustic scene classification. We compare the performance of systems trained using first-order and fourth-order spatial features extracted from the EigenScape database. Using both Gaussian mixture model and convolutional neural network classifiers, we show that features extracted from higher-order Ambisonics can yield increased classification accuracies relative to first-order features. Diffuseness-based features seem to describe scenes particularly well relative to direction-of-arrival based features. With specific feature subsets, however, differences in classification accuracy between first and fourth-order features become negligible.",
     keywords = "acoustic scene classification, ambisonics, spatial audio, convolutional neural networks, gaussian mixture models",
@@ -346,7 +346,7 @@
 
 @inproceedings{2021_DCASE 2021,
     author = "Politis, Archontis and Adavanne, Sharath and Krause, Daniel and Deleforge, Antoine and Srivastava, Prerak and Virtanen, Tuomas",
-    editor = "Font, Frederic and Mesaros, Mesaros and {P. W. Ellis}, Daniel and Fonseca, Eduardo and Fuentes, Magdalena and Elizalde, Benjamin",
+    editor = "Font, Frederic and Mesaros, Mesaros and P. W. Ellis, Daniel and Fonseca, Eduardo and Fuentes, Magdalena and Elizalde, Benjamin",
     title = "A Dataset of Dynamic Reverberant Sound Scenes with Directional Interferers for Sound Event Localization and Detection",
     year = "2021",
     doi = "10.48550/arXiv.2106.06999",
@@ -369,7 +369,7 @@
 }
 
 @article{2015_TASLP,
-    author = "Baby, Deepak and Virtanen, Tuomas and Gemmeke, {Jort F.} and {Van hamme}, Hugo",
+    author = "Baby, Deepak and Virtanen, Tuomas and Gemmeke, Jort F. and Van hamme, Hugo",
     title = "Coupled dictionaries for exemplar-based speech enhancement and automatic speech recognition",
     abstract = "Exemplar-based speech enhancement systems work by decomposing the noisy speech as a weighted sum of speech and noise exemplars stored in a dictionary and use the resulting speech and noise estimates to obtain a time-varying filter in the full-resolution frequency domain to enhance the noisy speech. To obtain the decomposition, exemplars sampled in lower dimensional spaces are preferred over the full-resolution frequency domain for their reduced computational complexity and the ability to better generalize to unseen cases. But the resulting filter may be sub-optimal as the mapping of the obtained speech and noise estimates to the full-resolution frequency domain yields a low-rank approximation. This paper proposes an efficient way to directly compute the full-resolution frequency estimates of speech and noise using coupled dictionaries: an input dictionary containing atoms from the desired exemplar space to obtain the decomposition and a coupled output dictionary containing exemplars from the full-resolution frequency domain. We also introduce modulation spectrogram features for the exemplar-based tasks using this approach. The proposed system was evaluated for various choices of input exemplars and yielded improved speech enhancement performances on the AURORA-2 and AURORA-4 databases. We further show that the proposed approach also results in improved word error rates (WERs) for the speech recognition tasks using HMM-GMM and deep-neural network (DNN) based systems.",
     keywords = "Exemplar-based, Modulation envelope, Noise robust automatic speech recognition, Non-negative sparse coding",
@@ -525,7 +525,7 @@
 }
 
 @inproceedings{2023_InterSpecch,
-    author = {Peng, Puyuan and Li, {Shang Wen} and R{\"a}s{\"a}nen, Okko and Mohamed, Abdelrahman and Harwath, David},
+    author = {Peng, Puyuan and Li, Shang Wen and R{\"a}s{\"a}nen, Okko and Mohamed, Abdelrahman and Harwath, David},
     title = "Syllable Discovery and Cross-Lingual Generalization in a Visually Grounded, Self-Supervised Speech Model",
     abstract = "In this paper, we show that representations capturing syllabic units emerge when training a self-supervised speech model with a visually-grounded training objective. We demonstrate that a nearly identical model architecture (HuBERT) trained with a masked language modeling loss does not exhibit this same ability, suggesting that the visual grounding objective is responsible for the emergence of this phenomenon. We propose the use of a minimum cut algorithm to automatically predict syllable boundaries in speech, followed by a 2-stage clustering method to group identical syllables together. We show that our model not only outperforms a state-of-the-art syllabic segmentation method on the language it was trained on (English), but also generalizes in a zero-shot fashion to Estonian. Finally, we show that the same model is capable of zero-shot generalization for a word segmentation task on 4 other languages from the Zerospeech Challenge, in some cases beating the previous state-of-the-art.",
     keywords = "self-supervised speech processing, speech segmentation, visually-grounded speech",
@@ -540,7 +540,7 @@
 }
 
 @article{2008_CMJ,
-    author = {Ryyn{\"a}nen, {M. P.} and Klapuri, {A. P.}},
+    author = {Ryyn{\"a}nen, M. P. and Klapuri, A. P.},
     title = "Automatic transcription of melody, bass line, and chords in polyphonic music",
     note = "Contribution: organisation=sgn,FACT1=1",
     year = "2008",
@@ -634,7 +634,7 @@
 }
 
 @article{2013_a,
-    author = {Pertil{\"a}, Pasi and H{\"a}m{\"a}l{\"a}inen, {Matti S.} and Mieskolainen, Mikael},
+    author = {Pertil{\"a}, Pasi and H{\"a}m{\"a}l{\"a}inen, Matti S. and Mieskolainen, Mikael},
     title = "Passive temporal offset estimation of multichannel recordings of an ad-hoc microphone array",
     note = "Contribution: organisation=sgn,FACT1=1<br/>Portfolio EDEND: 2013-12-29<br/>Publisher name: Institute of Electrical and Electronics Engineers IEEE",
     year = "2013",
@@ -663,7 +663,7 @@
 }
 
 @inproceedings{2010_ICASSP,
-    author = {Pertil{\"a}, Pasi and H{\"a}m{\"a}l{\"a}inen, {Matti S.}},
+    author = {Pertil{\"a}, Pasi and H{\"a}m{\"a}l{\"a}inen, Matti S.},
     title = "A track before detect approach for sequential Bayesian tracking of multiple speech sources",
     note = "Contribution: organisation=sgn,FACT1=1; IEEE International Conference on Acoustics, Speech and Signal Processing ; Conference date: 01-01-1900 Through 01-01-2000",
     year = "2010",
@@ -675,7 +675,7 @@
 }
 
 @article{2003,
-    author = "Klapuri, {A. P.}",
+    author = "Klapuri, A. P.",
     title = "Multiple fundamental frequency estimation based on harmonicitiy and spectral smoothness",
     note = "ISSN 1063-6676<br/>Contribution: organisation=sgn,FACT1=1",
     year = "2003",
@@ -732,7 +732,7 @@
 }
 
 @inproceedings{2021_a,
-    author = {Schuller, {Bj{\"o}rn W.} and Virtanen, Tuomas and Riveiro, Maria and Rizos, Georgios and Han, Jing and Mesaros, Annamaria and Drossos, Konstantinos},
+    author = {Schuller, Bj{\"o}rn W. and Virtanen, Tuomas and Riveiro, Maria and Rizos, Georgios and Han, Jing and Mesaros, Annamaria and Drossos, Konstantinos},
     title = "Towards Sonification in Multimodal and User-friendly Explainable Artificial Intelligence",
     abstract = {We are largely used to hearing explanations. For example, if someone thinks you are sad today, they might reply to your {"}why?{"}with {"}because you were so Hmmmmm-mmm-mmm{"}. Today's Artificial Intelligence (AI), however, is - if at all - largely providing explanations of decisions in a visual or textual manner. While such approaches are good for communication via visual media such as in research papers or screens of intelligent devices, they may not always be the best way to explain; especially when the end user is not an expert. In particular, when the AI's task is about Audio Intelligence, visual explanations appear less intuitive than audible, sonified ones. Sonification has also great potential for explainable AI (XAI) in systems that deal with non-audio data - for example, because it does not require visual contact or active attention of a user. Hence, sonified explanations of AI decisions face a challenging, yet highly promising and pioneering task. That involves incorporating innovative XAI algorithms to allow pointing back at the learning data responsible for decisions made by an AI, and to include decomposition of the data to identify salient aspects. It further aims to identify the components of the preprocessing, feature representation, and learnt attention patterns that are responsible for the decisions. Finally, it targets decision-making at the model-level, to provide a holistic explanation of the chain of processing in typical pattern recognition problems from end-to-end. Sonified AI explanations will need to unite methods for sonification of the identified aspects that benefit decisions, decomposition and recomposition of audio to sonify which parts in the audio were responsible for the decision, and rendering attention patterns and salient feature representations audible. Benchmarking sonified XAI is challenging, as it will require a comparison against a backdrop of existing, state-of-the-art visual and textual alternatives, as well as synergistic complementation of all modalities in user evaluations. Sonified AI explanations will need to target different user groups to allow personalisation of the sonification experience for different user needs, to lead to a major breakthrough in comprehensibility of AI via hearing how decisions are made, hence supporting tomorrow's humane AI's trustability. Here, we introduce and motivate the general idea, and provide accompanying considerations including milestones of realisation of sonifed XAI and foreseeable risks.},
     keywords = "Explainable artificial intelligence, human computer interaction, multimodality, sonification, trustworthy artificial intelligence",
@@ -778,7 +778,7 @@
 }
 
 @inproceedings{2013_ICASSP,
-    author = "Gemmeke, {Jort F.} and Virtanen, Tuomas and Demuynck, Kris",
+    author = "Gemmeke, Jort F. and Virtanen, Tuomas and Demuynck, Kris",
     title = "Exemplar-based joint channel and noise compensation",
     note = "Contribution: organisation=sgn,FACT1=1<br/>Portfolio EDEND: 2013-12-29<br/>Publisher name: Institute of Electrical and Electronics Engineers IEEE; IEEE International Conference on Acoustics, Speech and Signal Processing ; Conference date: 01-01-1900 Through 01-01-2000",
     year = "2013",
@@ -793,7 +793,7 @@
 }
 
 @article{2022_SP,
-    author = "Schuller, {Bjorn W.} and Eldar, Yonina and Pantic, Maja and Narayanan, Shrikanth and Virtanen, Tuomas and Tao, Jianhua",
+    author = "Schuller, Bjorn W. and Eldar, Yonina and Pantic, Maja and Narayanan, Shrikanth and Virtanen, Tuomas and Tao, Jianhua",
     title = "Special Issue on Signal Analysis for Detection and Monitoring of Contagious Diseases",
     note = "Publisher Copyright: {\textcopyright} 2007-2012 IEEE.",
     year = "2022",
@@ -807,7 +807,7 @@
 }
 
 @article{2025_a,
-    author = {Liu, Yuanyuan and {Kiran Reddy}, Mittapalle and Yagnavajjula, {Madhu Keerthana} and R{\"a}s{\"a}nen, Okko and Alku, Paavo and Ik{\"a}valko, Tero and Hakanp{\"a}{\"a}, Tua and {\"O}yry, Aleksi and Laukkanen, Anne-Maria},
+    author = {Liu, Yuanyuan and Kiran Reddy, Mittapalle and Yagnavajjula, Madhu Keerthana and R{\"a}s{\"a}nen, Okko and Alku, Paavo and Ik{\"a}valko, Tero and Hakanp{\"a}{\"a}, Tua and {\"O}yry, Aleksi and Laukkanen, Anne-Maria},
     title = "Automatic Classification of Strain in the Singing Voice Using Machine Learning",
     year = "2025",
     doi = "10.1016/j.jvoice.2025.03.040",
@@ -818,7 +818,7 @@
 }
 
 @inproceedings{2018_InterSpecch,
-    author = "Magron, Paul and Drossos, Konstantinos and Mimilakis, {Stylianos Ioannis} and Virtanen, Tuomas",
+    author = "Magron, Paul and Drossos, Konstantinos and Mimilakis, Stylianos Ioannis and Virtanen, Tuomas",
     title = "Reducing interference with phase recovery in DNN-based monaural singing voice separation",
     abstract = "State-of-the-art methods for monaural singing voice separation consist in estimating the magnitude spectrum of the voice in the short-term Fourier transform (STFT) domain by means of deep neural networks (DNNs). The resulting magnitude estimate is then combined with the mixture's phase to retrieve the complex-valued STFT of the voice, which is further synthesized into a time-domain signal. However, when the sources overlap in time and frequency, the STFT phase of the voice differs from the mixture's phase, which results in interference and artifacts in the estimated signals. In this paper, we investigate on recent phase recovery algorithms that tackle this issue and can further enhance the separation quality. These algorithms exploit phase constraints that originate from a sinusoidal model or from consistency , a property that is a direct consequence of the STFT redundancy. Experiments conducted on real music songs show that those algorithms are efficient for reducing interference in the estimated voice compared to the baseline approach.",
     year = "2018",
@@ -831,7 +831,7 @@
 }
 
 @inproceedings{2013_DAFx,
-    author = {Mahkonen, Katariina and Eronen, Antti and Virtanen, Tuomas and Helander, Elina and Popa, Victor and Lepp{\"a}nen, Jussi and Curcio, {Igor D.D.}},
+    author = {Mahkonen, Katariina and Eronen, Antti and Virtanen, Tuomas and Helander, Elina and Popa, Victor and Lepp{\"a}nen, Jussi and Curcio, Igor D.D.},
     title = "Music Dereverberation by Spectral Linear Prediction in Live Recordings",
     note = "Contribution: organisation=sgn,FACT1=1<br/>Portfolio EDEND: 2013-12-29<br/>Publisher name: International Conference on Digital Audio Effects; International Conference on Digital Audio Effects ; Conference date: 01-01-2013",
     year = "2013",
@@ -932,7 +932,7 @@
 
 @inproceedings{2003_ICMC,
     author = "Virtanen, T.",
-    editor = "Kong, {H. C.} and Tan, {B. T. G.}",
+    editor = "Kong, H. C. and Tan, B. T. G.",
     title = "Sound source separation using sparse coding with temporal continuity objective",
     note = "Contribution: organisation=sgn,FACT1=1",
     year = "2003",
@@ -981,7 +981,7 @@
 }
 
 @article{2020_a,
-    author = {Kivinummi, Aicha and Naithani, Gaurav and Tammela, Outi and Virtanen, Tuomas and Kurkela, Enni and Alhainen, Miia and Niehaus, {Dana J. H.} and Lachman, Anusha and Lepp{\"a}nen, {Jukka M.} and Peltola, {Mikko J.}},
+    author = {Kivinummi, Aicha and Naithani, Gaurav and Tammela, Outi and Virtanen, Tuomas and Kurkela, Enni and Alhainen, Miia and Niehaus, Dana J. H. and Lachman, Anusha and Lepp{\"a}nen, Jukka M. and Peltola, Mikko J.},
     title = "Associations Between Neonatal Cry Acoustics and Visual Attention During the First Year",
     abstract = "It has been suggested that early cry parameters are connected to later cognitive abilities. The present study is the first to investigate whether the acoustic features of infant cry are associated with cognitive development already during the first year, as measured by oculomotor orienting and attention disengagement. Cry sounds for acoustic analyses (fundamental frequency; F0) were recorded in two neonatal cohorts at the age of 0–8 days (Tampere, Finland) or at 6 weeks (Cape Town, South Africa). Eye tracking was used to measure oculomotor orienting to peripheral visual stimuli and attention disengagement from central stimuli at 8 months (Tampere) or at 6 months (Cape Town) of age. Only a marginal positive correlation between fundamental frequency of cry (F0) and visual attention disengagement was observed in the Tampere cohort, but not in the Cape Town cohort. This correlation indicated that infants from the Tampere cohort with a higher neonatal F0 were marginally slower to shift their gaze away from the central stimulus to the peripheral stimulus. No associations between F0 and oculomotor orienting were observed in either cohort. We discuss possible factors influencing the current pattern of results suggesting a lack of replicable associations between neonatal cry and visual attention and suggest directions for future research investigating the potential of early cry analysis in predicting later cognitive development.",
     keywords = "attention, cry, eye tracking, fundamental frequency, infant",
@@ -1047,7 +1047,7 @@
 }
 
 @inproceedings{2013_in conjuction with ICASSP,
-    author = "Gemmeke, {Jort F.} and Hurmalainen, Antti and Virtanen, Tuomas",
+    author = "Gemmeke, Jort F. and Hurmalainen, Antti and Virtanen, Tuomas",
     title = "HMM-regularization for NMF-based noise robust ASR",
     note = "Poster session<br/>Contribution: organisation=sgn,FACT1=1<br/>Portfolio EDEND: 2013-12-29<br/>Publisher name: International Workshop on Machine Listening in Multisource Environments",
     year = "2013",
@@ -1116,7 +1116,7 @@
 }
 
 @inproceedings{2017_DCASE2017,
-    author = "Mesaros, Annamaria and Heittola, Toni and Diment, Aleksandr and Elizalde, {Benjamin Martinez} and Shah, Ankit and Vincent, Emmanuel and Raj, Bhiksha and Virtanen, Tuomas",
+    author = "Mesaros, Annamaria and Heittola, Toni and Diment, Aleksandr and Elizalde, Benjamin Martinez and Shah, Ankit and Vincent, Emmanuel and Raj, Bhiksha and Virtanen, Tuomas",
     title = "DCASE 2017 challenge setup: tasks, datasets and baseline system",
     abstract = "DCASE 2017 Challenge consists of four tasks: acoustic scene classification, detection of rare sound events, sound event detection in real-life audio, and large-scale weakly supervised sound event detection for smart cars. This paper presents the setup of these tasks: task definition, dataset, experimental setup, and baseline system results on the development dataset. The baseline systems for all tasks rely on the same implementation using multilayer perceptron and log mel-energies, but differ in the structure of the output layer and the decision making process, as well as the evaluation of system output using task specific metrics.",
     keywords = "Sound scene analysis, Acoustic scene classification, Sound event detection, Audio tagging, Rare sound events",
@@ -1129,7 +1129,7 @@
 }
 
 @inproceedings{2018_ICASSP,
-    author = "Mimilakis, {Stylianos Ioannis} and Drossos, Konstantinos and Santos, {Jo{\\textasciitilde a}o F.} and Schuller, Gerald and Virtanen, Tuomas and Bengio, Yoshua",
+    author = "Mimilakis, Stylianos Ioannis and Drossos, Konstantinos and Santos, Jo{\\textasciitilde a}o F. and Schuller, Gerald and Virtanen, Tuomas and Bengio, Yoshua",
     title = "Monaural Singing Voice Separation with Skip-Filtering Connections and Recurrent Inference of Time-Frequency Mask",
     abstract = "Singing voice separation based on deep learning relies on the usage of time-frequency masking. In many cases the masking process is not a learnable function or is not encapsulated into the deep learning optimization. Consequently, most of the existing methods rely on a post processing step using the generalized Wiener filtering. This work proposes a method that learns and optimizes (during training) a source-dependent mask and does not need the aforementioned post processing step. We introduce a recurrent inference algorithm, a sparse transformation step to improve the mask generation process, and a learned denoising filter. Obtained results show an increase of 0.49 dB for the signal to distortion ratio and 0.30 dB for the signal to interference ratio, compared to previous state-of-the-art approaches for monaural singing voice separation.",
     note = "jufoid=57409; IEEE International Conference on Acoustics, Speech and Signal Processing ; Conference date: 15-04-2018 Through 20-04-2018",
@@ -1268,7 +1268,7 @@
 }
 
 @conference{2024_c,
-    author = {R{\"a}s{\"a}nen, Okko and {Cruz Blandon}, Maria and Khorrami, Khazar and Kocharov, Daniil},
+    author = {R{\"a}s{\"a}nen, Okko and Cruz Blandon, Maria and Khorrami, Khazar and Kocharov, Daniil},
     title = "Modeling Child Language Development using Naturalistic Data at a Scale",
     abstract = "These include learning of the language{\textquoteright}s phonetic units, segmentation of words from running speech, association word forms with their meanings, and acquisition of the syntax. Typical empirical research on child language development (CLD) consists of well-controlled focused studies conducted in laboratory conditions. In contrast, only a few high-level theories, like NLM-e (Kuhl et al., 2008) and PRIMIR (Werker \\& Curtin, 2005), have aimed to integrate the present understanding of CLD into unified frameworks. However, these frameworks have not gained unanimous acceptance in the field, largely since they are relatively abstract, and only qualitatively describe the mechanisms and representations that could be involved in CLD. As a result, we still have limited understanding of the basic mechanisms and their interactions driving early language acquisition. In principle, computational modelling of CLD is a potential solution to the so-called “integration problem” across empirical findings. This is because computational models can, and must, explicitly address all aspects of the information processing chain from input data to the resulting behavior. By formulating the theories as high-level computational goals and operations, implementing them as functional signal processing and machine learning algorithms, and finally exposing the models to realistic input data comparable to what real infants experience, ecological plausibility and validity of the underlying theories can be explicitly tested. However, the scientific impact of the existing modeling efforts has also been limited. Instead of addressing multiple aspects of language in one model, earlier models have usually focused on individual language phenomena (e.g., phonemic learning or word segmentation). Moreover, they have rarely investigated learning as a function of the developmental timeline of the learner. We argue that two main factors currently hinder the development of more comprehensive, ecologically valid, and thus influential models of CLD: 1) lack of ecologically valid and openly available large-scale speech data to simulate child language experiences at a realistic scale, where various adult speech corpora are currently used instead, and 2) limited validation of the models with respect to empirical data on real infant language learning, where the current standard approach is to evaluate the models against linguistic theory of how speech is formally structured. Without fixing the data and evaluation problems, it is difficult to develop models that could truly help us to understand the big picture of CLD. In this talk, we provide an overview of our ongoing “Modeling Child Language Development using Naturalistic Data at a Scale” (L-SCALE) project, where the aim is to enable development of more comprehensive and ecologically valid computational models of CLD. To achieve this, the L-SCALE project tackles the two challenges identified above: 1) solving the ecologically valid training data problem by creating a pipeline called Generator of Infant Language ExperienceS (GILES) for generation of ecologically relevant large-scale training data for computational models, and 2) solving the mismatch between human data and computational model evaluation by developing evaluation protocols that enable comparison of computational models against empirical data on CLD as a function of learner{\textquoteright}s age. We will also showcase some recent developments of the project, including a proof- of-concept demonstration of the GILES pipeline and a meta-analytic approach to compare models to empirical data on infant language learning. The L-SCALE project is funded by Kone Foundation (2022–2026).",
     year = "2024",
@@ -1278,7 +1278,7 @@
 }
 
 @inproceedings{2014_HSCMA 2014,
-    author = {Parviainen, Mikko and Pertil{\"a}, Pasi and H{\"a}m{\"a}l{\"a}inen, {Matti S.}},
+    author = {Parviainen, Mikko and Pertil{\"a}, Pasi and H{\"a}m{\"a}l{\"a}inen, Matti S.},
     title = "Self-localization of wireless acoustic sensors in Meeting rooms",
     note = "Contribution: organisation=sgn,FACT1=1<br/>Portfolio EDEND: 2014-09-04; Joint workshop on hands-free speech communication and microphone arrays ; Conference date: 01-01-2014",
     year = "2014",
@@ -1331,7 +1331,7 @@
 }
 
 @article{2018_c,
-    author = "Mesaros, Annamaria and Heittola, Toni and Benetos, Emmanouil and Foster, Peter and Lagrange, Mathieu and Virtanen, Tuomas and Plumbley, {Mark D.}",
+    author = "Mesaros, Annamaria and Heittola, Toni and Benetos, Emmanouil and Foster, Peter and Lagrange, Mathieu and Virtanen, Tuomas and Plumbley, Mark D.",
     title = "Detection and Classification of Acoustic Scenes and Events: Outcome of the DCASE 2016 Challenge",
     abstract = "Public evaluation campaigns and datasets promote active development in target research areas, allowing direct comparison of algorithms. The second edition of the challenge on Detection and Classification of Acoustic Scenes and Events (DCASE 2016) has offered such an opportunity for development of state-of-the-art methods, and succeeded in drawing together a large number of participants from academic and industrial backgrounds. In this paper, we report on the tasks and outcomes of the DCASE 2016 challenge. The challenge comprised four tasks: acoustic scene classification, sound event detection in synthetic audio, sound event detection in real-life audio, and domestic audio tagging. We present in detail each task and analyse the submitted systems in terms of design and performance. We observe the emergence of deep learning as the most popular classification method, replacing the traditional approaches based on Gaussian mixture models and support vector machines. By contrast, feature representations have not changed substantially throughout the years, as mel frequency-based representations predominate in all tasks. The datasets created for and used in DCASE 2016 are publicly available and are a valuable resource for further research.",
     keywords = "Acoustic scene classification, Acoustics, audio datasets, Event detection, Hidden Markov models, pattern recognition, sound event detection, Speech, Speech processing, Tagging",
@@ -1371,7 +1371,7 @@
 }
 
 @inproceedings{2011_CHiME_a,
-    author = "Gemmeke, {Jort F.} and Virtanen, Tuomas and Hurmalainen, Antti",
+    author = "Gemmeke, Jort F. and Virtanen, Tuomas and Hurmalainen, Antti",
     title = "Exemplar-Based Speech Enhancement and its Application to Noise-Robust Automatic Speech Recognition",
     note = "ei ut-numeroa 1.3.2014<br/>Contribution: organisation=sgn,FACT1=1",
     year = "2011",
@@ -1383,7 +1383,7 @@
 }
 
 @book{2018_d,
-    editor = "Virtanen, Tuomas and Plumbley, {Mark D.} and Ellis, Dan",
+    editor = "Virtanen, Tuomas and Plumbley, Mark D. and Ellis, Dan",
     title = "Computational analysis of sound scenes and events",
     abstract = "This book presents computational methods for extracting the useful information from audio signals, collecting the state of the art in the field of sound event and scene analysis. The authors cover the entire procedure for developing such methods, ranging from data acquisition and labeling, through the design of taxonomies used in the systems, to signal processing methods for feature extraction and machine learning methods for sound recognition. The book also covers advanced techniques for dealing with environmental variation and multiple overlapping sound sources, and taking advantage of multiple microphones or other modalities. The book gives examples of usage scenarios in large media databases, acoustic monitoring, bioacoustics, and context-aware devices. Graphical illustrations of sound signals and their spectrographic representations are presented, as well as block diagrams and pseudocode of algorithms.",
     year = "2018",
@@ -1411,7 +1411,7 @@
 }
 
 @inproceedings{2019_WASPAA_a,
-    author = "Bear, {Helen L.} and Heittola, Toni and Mesaros, Annamaria and Benetos, Emmanouil and Virtanen, Tuomas",
+    author = "Bear, Helen L. and Heittola, Toni and Mesaros, Annamaria and Benetos, Emmanouil and Virtanen, Tuomas",
     title = "City Classification from Multiple Real-World Sound Scenes",
     abstract = "The majority of sound scene analysis work focuses on one of two clearly defined tasks: acoustic scene classification or sound event detection. Whilst this separation of tasks is useful for problem definition, they inherently ignore some subtleties of the real-world, in particular how humans vary in how they describe a scene. Some will describe the weather and features within it, others will use a holistic descriptor like {\textquoteleft}park{\textquoteright}, and others still will use unique identifiers such as cities or names. In this paper, we undertake the task of automatic city classification to ask whether we can recognize a city from a set of sound scenesƒ In this problem each city has recordings from multiple scenes. We test a series of methods for this novel task and show that a simple convolutional neural network (CNN) can achieve accuracy of 50\\%. This is less than the acoustic scene classification task baseline in the DCASE 2018 ASC challenge on the same data. A simple adaptation to the class labels of pairing city labels with grouped scenes, accuracy increases to 52\\%, closer to the simpler scene classification task. Finally we also formulate the problem in a multi-task learning framework and achieve an accuracy of 56\\%, outperforming the aforementioned approaches.",
     keywords = "Acoustic scene classification, location identification, city classification, computational sound scene analysis",
@@ -1505,7 +1505,7 @@
 }
 
 @inproceedings{2010_ICASSP_a,
-    author = "Gemmeke, {Jort F.} and Virtanen, Tuomas",
+    author = "Gemmeke, Jort F. and Virtanen, Tuomas",
     title = "Noise robust exemplar-based connected digit recognition",
     note = "Contribution: organisation=sgn,FACT1=1; IEEE International Conference on Acoustics, Speech and Signal Processing ; Conference date: 01-01-1900 Through 01-01-2000",
     year = "2010",
@@ -1548,7 +1548,7 @@
 }
 
 @inproceedings{2024_d,
-    author = "{Diaz-Guerra Aparicio}, David and Politis, Archontis and Miguel, Antonio and Beltran, {Jose Ramon} and Virtanen, Tuomas",
+    author = "Diaz-Guerra Aparicio, David and Politis, Archontis and Miguel, Antonio and Beltran, Jose Ramon and Virtanen, Tuomas",
     title = "Permutation Invariant Recurrent Neural Networks for Sound Source Tracking Applications",
     abstract = "Many multi-source localization and tracking models based on neural networks use one or several recurrent layers at their final stages to track the movement of the sources. Conventional recurrent neural networks (RNNs), such as the long short-term memories (LSTMs) or the gated recurrent units (GRUs), take a vector as their input and use another vector to store their state. However, this approach results in the information from all the sources being contained in a single ordered vector, which is not optimal for permutation-invariant problems such as multi-source tracking. In this paper, we present a new recurrent architecture that uses unordered sets to represent both its input and its state and that is invariant to the permutations of the input set and equivariant to the permutations of the state set. Hence, the information of every sound source is represented in an individual embedding and the new estimates are assigned to the tracked trajectories regardless of their order.",
     year = "2024",
@@ -1604,7 +1604,7 @@
 }
 
 @article{2024_e,
-    author = {Cristia, Alejandrina and Gautheron, Lucas and Zhang, Zixing and Schuller, Bj{\"o}rn and Scaff, Camila and Rowland, Caroline and R{\"a}s{\"a}nen, Okko and Peurey, Loann and Lavechin, Marvin and Havard, William and Fausey, {Caitlin M.} and Cychosz, Margaret and Bergelson, Elika and Anderson, Heather and {Al Futaisi}, Najla and Soderstrom, Melanie},
+    author = {Cristia, Alejandrina and Gautheron, Lucas and Zhang, Zixing and Schuller, Bj{\"o}rn and Scaff, Camila and Rowland, Caroline and R{\"a}s{\"a}nen, Okko and Peurey, Loann and Lavechin, Marvin and Havard, William and Fausey, Caitlin M. and Cychosz, Margaret and Bergelson, Elika and Anderson, Heather and Al Futaisi, Najla and Soderstrom, Melanie},
     title = "Establishing the reliability of metrics extracted from long-form recordings using LENA and the ACLEW pipeline",
     abstract = "Long-form audio recordings are increasingly used to study individual variation, group differences, and many other topics in theoretical and applied fields of developmental science, particularly for the description of children{\textquoteright}s language input (typically speech from adults) and children{\textquoteright}s language output (ranging from babble to sentences). The proprietary LENA software has been available for over a decade, and with it, users have come to rely on derived metrics like adult word count (AWC) and child vocalization counts (CVC), which have also more recently been derived using an open-source alternative, the ACLEW pipeline. Yet, there is relatively little work assessing the reliability of long-form metrics in terms of the stability of individual differences across time. Filling this gap, we analyzed eight spoken-language datasets: four from North American English-learning infants, and one each from British English-, French-, American English-/Spanish-, and Quechua-/Spanish-learning infants. The audio data were analyzed using two types of processing software: LENA and the ACLEW open-source pipeline. When all corpora were included, we found relatively low to moderate reliability (across multiple recordings, intraclass correlation coefficient attributed to the child identity [Child ICC], was < 50\\% for most metrics). There were few differences between the two pipelines. Exploratory analyses suggested some differences as a function of child age and corpora. These findings suggest that, while reliability is likely sufficient for various group-level analyses, caution is needed when using either LENA or ACLEW tools to study individual variation. We also encourage improvement of extant tools, specifically targeting accurate measurement of individual variation.",
     keywords = "Accuracy, Big data, Daylong recordings, Speech technology",
@@ -1707,7 +1707,7 @@
 }
 
 @inproceedings{2014_ICASSP,
-    author = "Giannoulis, Dimitrios and Benetos, Emmanouil and Klapuri, Anssi and Plumbley, {Mark D.}",
+    author = "Giannoulis, Dimitrios and Benetos, Emmanouil and Klapuri, Anssi and Plumbley, Mark D.",
     title = "Improving instrument recognition in polyphonic music through system integration",
     note = "Contribution: organisation=sgn,FACT1=1<br/>Portfolio EDEND: 2015-01-21; IEEE International Conference on Acoustics, Speech and Signal Processing ; Conference date: 01-01-1900 Through 01-01-2000",
     year = "2014",
@@ -1719,7 +1719,7 @@
 }
 
 @inproceedings{2018_IWAENC_a,
-    author = "Drossos, Konstantinos and Magron, Paul and Mimilakis, {Stylianos Ioannis} and Virtanen, Tuomas",
+    author = "Drossos, Konstantinos and Magron, Paul and Mimilakis, Stylianos Ioannis and Virtanen, Tuomas",
     title = "Harmonic-Percussive Source Separation with Deep Neural Networks and Phase Recovery",
     abstract = "Harmonic/percussive source separation (HPSS) consists in separating the pitched instruments from the percussive parts in a music mixture. In this paper, we propose to apply the recently introduced Masker-Denoiser with twin networks (MaD TwinNet) system to this task. MaD TwinNet is a deep learning architecture that has reached state-of-the-art results in monaural singing voice separation. Herein, we propose to apply it to HPSS by using it to estimate the magnitude spectrogram of the percussive source. Then, we retrieve the complex-valued short-term Fourier transform of the sources by means of a phase recovery algorithm, which minimizes the reconstruction error and enforces the phase of the harmonic part to follow a sinusoidal phase model. Experiments conducted on realistic music mixtures show that this novel separation system outperforms the previous state-of-the art kernel additive model approach.",
     year = "2018",
@@ -1892,8 +1892,8 @@
 }
 
 @inproceedings{2003_SPIE,
-    author = {Pertil{\"a}, {P. E.} and Pirinen, {T. W.} and Visa, {A. J.} and Korhonen, {T. S.}},
-    editor = "Carapezza, {E. M.}",
+    author = {Pertil{\"a}, P. E. and Pirinen, T. W. and Visa, A. J. and Korhonen, T. S.},
+    editor = "Carapezza, E. M.",
     title = "Comparison of three post-processing methods for acoustic localization",
     note = "ISBN 0-8194-4950-4, ISSN 0277-786X<br/>Contribution: organisation=sgn,FACT1=1; SPIE CONFERENCE PROCEEDINGS ; Conference date: 01-01-1900",
     year = "2003",
@@ -1920,7 +1920,7 @@
 }
 
 @inproceedings{2012_ISCCSP,
-    author = "Rad, {Ali Bahrami} and Virtanen, Tuomas",
+    author = "Rad, Ali Bahrami and Virtanen, Tuomas",
     title = "Phase Spectrum Prediction of Audio Signals",
     note = "ei ut-numeroa 29.8.2013<br/>Contribution: organisation=sgn,FACT1=1<br/>Publisher name: Institute of Electrical and Electronics Engineers IEEE",
     year = "2012",
@@ -2021,7 +2021,7 @@
 }
 
 @inproceedings{2014_ICASSP_a,
-    author = "Virtanen, Tuomas and Raj, Bhiksha and Gemmeke, {Jort F.} and {Van hamme}, Hugo",
+    author = "Virtanen, Tuomas and Raj, Bhiksha and Gemmeke, Jort F. and Van hamme, Hugo",
     title = "Active-Set Newton Algorithm for Non-Negative Sparse Coding of Audio",
     note = "Contribution: organisation=sgn,FACT1=1<br/>Portfolio EDEND: 2014-09-24; IEEE International Conference on Acoustics, Speech and Signal Processing ; Conference date: 01-01-1900 Through 01-01-2000",
     year = "2014",
@@ -2113,7 +2113,7 @@
 }
 
 @article{2018_h,
-    author = "{Carabias Orti}, {Julio Jose} and Nikunen, Joonas and Virtanen, Tuomas and Vera-Candeas, Pedro",
+    author = "Carabias Orti, Julio Jose and Nikunen, Joonas and Virtanen, Tuomas and Vera-Candeas, Pedro",
     title = "Multichannel Blind Sound Source Separation using Spatial Covariance Model with Level and Time Differences and Non-Negative Matrix Factorization",
     abstract = "This paper presents an algorithm for multichannel sound source separation using explicit modeling of level and time differences in source spatial covariance matrices (SCM). We propose a novel SCM model in which the spatial properties are modeled by the weighted sum of direction of arrival (DOA) kernels. DOA kernels are obtained as the combination of phase and level difference covariance matrices representing both time and level differences between microphones for a grid of predefined source directions. The proposed SCM model is combined with the NMF model for the magnitude spectrograms. Opposite to other SCM models in the literature, in this work, source localization is implicitly defined in the model and estimated during the signal factorization. Therefore, no localization pre-processing is required. Parameters are estimated using complex-valued non-negative matrix factorization (CNMF) with both Euclidean distance and Itakura Saito divergence. Separation performance of the proposed system is evaluated using the two-channel SiSEC development dataset and four channels signals recorded in a regular room with moderate reverberation. Finally, a comparison to other state-of-the-art methods is performed, showing better achieved separation performance in terms of SIR and perceptual measures.",
     keywords = "Covariance matrices, direction of arrival estimation, Direction-of-arrival estimation, interaural level difference, interaural time difference, Kernel, Microphones, multichannel source separation, non-negative matrix factorization, Source separation, spatial covariance model, Spectrogram, Time-frequency analysis",
@@ -2201,7 +2201,7 @@
 }
 
 @inproceedings{2023_NeurIPS 2023,
-    author = "Shimada, Kazuki and Politis, Archontis and {Ariyakulam Sudarsanam}, Parthasaarathy and Krause, Daniel and Uchida, Kengo and Adavanne, Sharath and Hakala, Aapo and Koyama, Yuichiro and Takahashi, Naoya and Takahashi, Shusuke and Virtanen, Tuomas and Mitsufuji, Yuki",
+    author = "Shimada, Kazuki and Politis, Archontis and Ariyakulam Sudarsanam, Parthasaarathy and Krause, Daniel and Uchida, Kengo and Adavanne, Sharath and Hakala, Aapo and Koyama, Yuichiro and Takahashi, Naoya and Takahashi, Shusuke and Virtanen, Tuomas and Mitsufuji, Yuki",
     title = "STARSS23: An Audio-Visual Dataset of Spatial Recordings of Real Scenes with Spatiotemporal Annotations of Sound Events",
     year = "2023",
     language = "English",
@@ -2225,7 +2225,7 @@
 }
 
 @inproceedings{2023_EUSIPCO,
-    author = {Khorrami, Khazar and {Cruz Blandon}, Maria and Virtanen, Tuomas and R{\"a}s{\"a}nen, Okko},
+    author = {Khorrami, Khazar and Cruz Blandon, Maria and Virtanen, Tuomas and R{\"a}s{\"a}nen, Okko},
     title = "Simultaneous or sequential training? How speech representations cooperate in a multi-task self-supervised learning system",
     abstract = "Speech representation learning with self-supervised algorithms has resulted in notable performance boosts in many downstream tasks. Recent work combined self-supervised learning (SSL) and visually grounded speech (VGS) processing mechanisms for representation learning. The joint training with SSL and VGS mechanisms provides the opportunity to utilize both unlabeled speech and speech-related visual information based on data availability. This has shown to enhance the quality of learned representations, especially at encoding semantic- and lexical-level knowledge. In this work, we further study the joint optimization of wav2vec 2.0-based SSL and transformer-based VGS as a multitask learning system. We explore a set of training scenarios to understand how speech representations are shared or transferred between the two tasks, and what is the optimal training strategy for cross-modal semantic retrieval and phoneme discrimination performance. As a result, we find that sequential training with wav2vec 2.0 first and VGS next provides higher performance on audio-visual retrieval compared to simultaneous optimization of both learning mechanisms. However, the parallel SSL-VGS training reduces the effects of catastrophic forgetting when switching between optimization criteria. Moreover, the results suggest that phonemic representations learned through the VGS mechanism may generalize better across datasets compared to those learned with SSL.",
     year = "2023",
@@ -2241,7 +2241,7 @@
 }
 
 @article{2017_b,
-    author = "Richard, G. and Virtanen, T. and Bello, {J. P.} and Ono, N. and Glotin, H.",
+    author = "Richard, G. and Virtanen, T. and Bello, J. P. and Ono, N. and Glotin, H.",
     title = "Introduction to the Special Section on Sound Scene and Event Analysis",
     abstract = "The papers in this special section are devoted to the growing field of acoustic scene classification and acoustic event recognition. Machine listening systems still have difficulties to reach the ability of human listeners in the analysis of realistic acoustic scenes. If sustained research efforts have been made for decades in speech recognition, speaker identification and to a lesser extent in music information retrieval, the analysis of other types of sounds, such as environmental sounds, is the subject of growing interest from the community and is targeting an ever increasing set of audio categories. This problem appears to be particularly challenging due to the large variety of potential sound sources in the scene, which may in addition have highly different acoustic characteristics, especially in bioacoustics. Furthermore, in realistic environments, multiple sources are often present simultaneously, and in reverberant conditions.",
     year = "2017",
@@ -2322,7 +2322,7 @@
 }
 
 @article{2023_b,
-    author = {{Cruz Bland{\'o}n}, {Mar{\'i}a Andrea} and Cristia, Alejandrina and R{\"a}s{\"a}nen, Okko},
+    author = {Cruz Bland{\'o}n, Mar{\'i}a Andrea and Cristia, Alejandrina and R{\"a}s{\"a}nen, Okko},
     title = "Introducing Meta-analysis in the Evaluation of Computational Models of Infant Language Development",
     abstract = "Computational models of child language development can help us understand the cognitive underpinnings of the language learning process, which occurs along several linguistic levels at once (e.g., prosodic and phonological). However, in light of the replication crisis, modelers face the challenge of selecting representative and consolidated infant data. Thus, it is desirable to have evaluation methodologies that could account for robust empirical reference data, across multiple infant capabilities. Moreover, there is a need for practices that can compare developmental trajectories of infants to those of models as a function of language experience and development. The present study aims to take concrete steps to address these needs by introducing the concept of comparing models with large-scale cumulative empirical data from infants, as quantified by meta-analyses conducted across a large number of individual behavioral studies. We formalize the connection between measurable model and human behavior, and then present a conceptual framework for meta-analytic evaluation of computational models. We exemplify the meta-analytic model evaluation approach with two modeling experiments on infant-directed speech preference and native/non-native vowel discrimination.",
     keywords = "Child language development, Computational modeling, Language acquisition, Meta-analysis, Model evaluation",
@@ -2340,7 +2340,7 @@
 }
 
 @article{2019,
-    author = "{San Juan Sebasti{\'a}n}, Pablo and Virtanen, Tuomas and Garcia-Molla, {Victor M.} and Vidal, {Antonio M.}",
+    author = "San Juan Sebasti{\'a}n, Pablo and Virtanen, Tuomas and Garcia-Molla, Victor M. and Vidal, Antonio M.",
     title = "Analysis of an efficient parallel implementation of active-set Newton algorithm",
     abstract = "This paper presents an analysis of an efficient parallel implementation of the active-set Newton algorithm (ASNA), which is used to estimate the nonnegative weights of linear combinations of the atoms in a large-scale dictionary to approximate an observation vector by minimizing the Kullback–Leibler divergence between the observation vector and the approximation. The performance of ASNA has been proved in previous works against other state-of-the-art methods. The implementations analysed in this paper have been developed in C, using parallel programming techniques to obtain a better performance in multicore architectures than the original MATLAB implementation. Also a hardware analysis is performed to check the influence of CPU frequency and number of CPU cores in the different implementations proposed. The new implementations allow ASNA algorithm to tackle real-time problems due to the execution time reduction obtained.",
     keywords = "Convex optimization, Multicore, Newton algorithm, Parallel computing, Sparse representation",
@@ -2512,7 +2512,7 @@
 }
 
 @article{2015_SPM,
-    author = "Virtanen, Tuomas and Gemmeke, {Jort F.} and Raj, Bhiksha and Smaragdis, Paris",
+    author = "Virtanen, Tuomas and Gemmeke, Jort F. and Raj, Bhiksha and Smaragdis, Paris",
     title = "Compositional Models for Audio Processing: Uncovering the structure of sound mixtures",
     note = "Contribution: organisation=sgn,FACT1=1<br/>Portfolio EDEND: 2015-02-20<br/>Publisher name: IEEE",
     year = "2015",
@@ -2527,7 +2527,7 @@
 }
 
 @article{2018_ICA,
-    author = "Bramsl{\o}w, Lars and Naithani, Gaurav and Hafez, Atefeh and Barker, Tom and Pontoppidan, {Niels Henrik} and Virtanen, Tuomas",
+    author = "Bramsl{\o}w, Lars and Naithani, Gaurav and Hafez, Atefeh and Barker, Tom and Pontoppidan, Niels Henrik and Virtanen, Tuomas",
     title = "Improving competing voices segregation for hearing impaired listeners using a low-latency deep neural network algorithm",
     abstract = "Hearing aid users are challenged in listening situations with noise and especially speech-on-speech situations with two or more competing voices. Specifically, the task of attending to and segregating two competing voices is particularly hard, unlike for normal-hearing listeners, as shown in a small sub-experiment. In the main experiment, the competing voices benefit of a deep neural network (DNN) based stream segregation enhancement algorithm was tested on hearing-impaired listeners. A mixture of two voices was separated using a DNN and presented to the two ears as individual streams and tested for word score. Compared to the unseparated mixture, there was a 13\\%-point benefit from the separation, while attending to both voices. If only one output was selected as in a traditional target-masker scenario, a larger benefit of 37\\%-points was found. The results agreed well with objective metrics and show that for hearing-impaired listeners, DNNs have a large potential for improving stream segregation and speech intelligibility in difficult scenarios with two equally important targets without any prior selection of a primary target stream. An even higher benefit can be obtained if the user can select the preferred target via remote control.",
     note = {INT=tie,{"}Barker, Tom{"}},
@@ -2622,7 +2622,7 @@
 }
 
 @inproceedings{2022_DCASE 2022,
-    author = "{Martin Morato}, Irene and Paissan, Francesco and Ancilotto, Alberto and Heittola, Toni and Mesaros, Annamaria and Farella, Elisabetta and Brutti, Alessio and Virtanen, Tuomas",
+    author = "Martin Morato, Irene and Paissan, Francesco and Ancilotto, Alberto and Heittola, Toni and Mesaros, Annamaria and Farella, Elisabetta and Brutti, Alessio and Virtanen, Tuomas",
     editor = {Lagrange, Mathieu and Mesaros, Annamaria and Pellegrini, Thomas and Richard, Ga{\"e}l and Serizel, Romain and Stowell, Dan},
     title = "Low-Complexity Acoustic Scene Classification in DCASE 2022 Challenge",
     abstract = "This paper presents an analysis of the Low-Complexity Acoustic Scene Classification task in DCASE 2022 Challenge. The task was a continuation from the previous years, but the low-complexity requirements were changed to the following: the maximum number of allowed parameters, including the zero-valued ones, was 128 K, with parameters being represented using INT8 numerical format; and the maximum number of multiply-accumulate operations at inference time was 30 million. Despite using the same previous year dataset, the audio samples have been shortened to 1 second instead of 10 second for this year challenge. The provided baseline system is a convolutional neural network which employs post-training quantization of parameters, resulting in 46.5 K parameters, and 29.23 million multiply-and-accumulate operations (MMACs). Its performance on the evaluation data is 44.2\\% accuracy and 1.532 log-loss. In comparison, the top system in the challenge obtained an accuracy of 59.6\\% and a log loss of 1.091, having 121 K parameters and 28 MMACs. The task received 48 submissions from 19 different teams, most of which outperformed the baseline system.",
@@ -2664,7 +2664,7 @@
 }
 
 @inproceedings{2013_InterSpecch,
-    author = "Wu, Zhizheng and Virtanen, Tuomas and Kinnunen, Tomi and Chng, {Eng Siong} and Li, Haizhou",
+    author = "Wu, Zhizheng and Virtanen, Tuomas and Kinnunen, Tomi and Chng, Eng Siong and Li, Haizhou",
     title = "Exemplar-Based Unit Selection for Voice Conversion Utilizing Temporal Information",
     note = "Contribution: organisation=sgn,FACT1=1<br/>Portfolio EDEND: 2014-02-15<br/>Publisher name: International Speech Communication Association",
     year = "2013",
@@ -2746,7 +2746,7 @@
 }
 
 @inproceedings{2015_ICASSP_b,
-    author = "Baby, Deepak and Gemmeke, {Jort F.} and Virtanen, Tuomas and {Van Hamme}, Hugo",
+    author = "Baby, Deepak and Gemmeke, Jort F. and Virtanen, Tuomas and Van Hamme, Hugo",
     title = "Exemplar-based speech enhancement for deep neural network based automatic speech recognition",
     abstract = "Deep neural network (DNN) based acoustic modelling has been successfully used for a variety of automatic speech recognition (ASR) tasks, thanks to its ability to learn higher-level information using multiple hidden layers. This paper investigates the recently proposed exemplar-based speech enhancement technique using coupled dictionaries as a pre-processing stage for DNN-based systems. In this setting, the noisy speech is decomposed as a weighted sum of atoms in an input dictionary containing exemplars sampled from a domain of choice, and the resulting weights are applied to a coupled output dictionary containing exemplars sampled in the short-time Fourier transform (STFT) domain to directly obtain the speech and noise estimates for speech enhancement. In this work, settings using input dictionary of exemplars sampled from the STFT, Mel-integrated magnitude STFT and modulation envelope spectra are evaluated. Experiments performed on the AURORA-4 database revealed that these pre-processing stages can improve the performance of the DNN-HMM-based ASR systems with both clean and multi-condition training.",
     keywords = "coupled dictionaries, deep neural networks, modulation envelope, non-negative matrix factorisation, speech enhancement",
@@ -2795,7 +2795,7 @@
 }
 
 @article{2018_JASM,
-    author = {Naithani, Gaurav and Kivinummi, Jaana and Virtanen, Tuomas and Tammela, Outi and Peltola, {Mikko J.} and Lepp{\"a}nen, {Jukka M.}},
+    author = {Naithani, Gaurav and Kivinummi, Jaana and Virtanen, Tuomas and Tammela, Outi and Peltola, Mikko J. and Lepp{\"a}nen, Jukka M.},
     title = "Automatic segmentation of infant cry signals using hidden Markov models",
     abstract = "Automatic extraction of acoustic regions of interest from recordings captured in realistic clinical environments is a necessary preprocessing step in any cry analysis system. In this study, we propose a hidden Markov model (HMM) based audio segmentation method to identify the relevant acoustic parts of the cry signal (i.e., expiratory and inspiratory phases) from recordings made in natural environments with various interfering acoustic sources. We examine and optimize the performance of the system by using different audio features and HMM topologies. In particular, we propose using fundamental frequency and aperiodicity features. We also propose a method for adapting the segmentation system trained on acoustic material captured in a particular acoustic environment to a different acoustic environment by using feature normalization and semi-supervised learning (SSL). The performance of the system was evaluated by analyzing a total of 3 h and 10 min of audio material from 109 infants, captured in a variety of recording conditions in hospital wards and clinics. The proposed system yields frame-based accuracy up to 89.2\\%. We conclude that the proposed system offers a solution for automated segmentation of cry signals in cry analysis applications.",
     keywords = "Acoustic analysis, Audio segmentation, Hidden Markov models, Infant cry analysis, Model adaptation, Acoustic analysis, Audio segmentation, Hidden Markov models, Infant cry analysis, Model adaptation",
@@ -2810,7 +2810,7 @@
 }
 
 @inproceedings{2013_in conjuction with ICASSP_a,
-    author = {Geiger, {Jurgen T.} and Weninger, Felix and Hurmalainen, Antti and Gemmeke, {Jort F.} and W{\"o}llmer, Martin and Schuller, Bj{\"o}rn and Rigoll, Gerhard and Virtanen, Tuomas},
+    author = {Geiger, Jurgen T. and Weninger, Felix and Hurmalainen, Antti and Gemmeke, Jort F. and W{\"o}llmer, Martin and Schuller, Bj{\"o}rn and Rigoll, Gerhard and Virtanen, Tuomas},
     title = "The TUM+TUT+KUL Approach to the 2nd CHiME Challenge: Multi-Stream ASR Exploiting BLSTM Networks and Sparse NMF",
     note = "Poster Session; Best Paper Award Winner<br/>Contribution: organisation=sgn,FACT1=1<br/>Portfolio EDEND: 2013-12-29<br/>Publisher name: International Workshop on Machine Listening in Multisource Environments",
     year = "2013",
@@ -2849,7 +2849,7 @@
 
 @inproceedings{2008_ISMIR,
     author = "Paulus, J. and Klapuri, A.",
-    editor = "Bello, {J. B.}",
+    editor = "Bello, J. B.",
     title = "Music structure analysis using a probabilistic fitness measure and an integrated musicological model",
     note = "Contribution: organisation=sgn,FACT1=1",
     year = "2008",
@@ -2860,7 +2860,7 @@
 }
 
 @inproceedings{2020_IJCNN,
-    author = "Drossos, Konstantinos and Mimilakis, {Stylianos Ioannis} and Gharib, Shayan and Li, Yanxiong and Virtanen, Tuomas",
+    author = "Drossos, Konstantinos and Mimilakis, Stylianos Ioannis and Gharib, Shayan and Li, Yanxiong and Virtanen, Tuomas",
     title = "Sound Event Detection with Depthwise Separable and Dilated Convolutions",
     abstract = "State-of-the-art sound event detection (SED) methods usually employ a series of convolutional neural networks (CNNs) to extract useful features from the input audio signal, and then recurrent neural networks (RNNs) to model longer temporal context in the extracted features. The number of the channels of the CNNs and size of the weight matrices of the RNNs have a direct effect on the total amount of parameters of the SED method, which is to a couple of millions. Additionally, the usually long sequences that are used as an input to an SED method along with the employment of an RNN, introduce implications like increased training time, difficulty at gradient flow, and impeding the parallelization of the SED method. To tackle all these problems, we propose the replacement of the CNNs with depthwise separable convolutions and the replacement of the RNNs with dilated convolutions. We compare the proposed method to a baseline convolutional neural network on a SED task, and achieve a reduction of the amount of parameters by 85\\% and average training time per epoch by 78\\%, and an increase the average frame-wise F1 score and reduction of the average error rate by 4.6\\% and 3.8\\%, respectively.",
     note = "jufoid=58177; International Joint Conference on Neural Networks (IJCNN), WCCI/IJCNN ; Conference date: 19-07-2020 Through 24-07-2020",
@@ -2921,7 +2921,7 @@
 }
 
 @inproceedings{2017_AES,
-    author = "Drossos, Konstantinos and Mimilakis, {Stylianos - Ioannis} and Floros, Andreas and Virtanen, Tuomas and Schuller, Gerald",
+    author = "Drossos, Konstantinos and Mimilakis, Stylianos - Ioannis and Floros, Andreas and Virtanen, Tuomas and Schuller, Gerald",
     title = "Close Miking Empirical Practice Verification: A Source Separation Approach",
     abstract = "Close miking represents a widely employed practice of placing a microphone very near to the sound source in order to capture more direct sound and minimize any pickup of ambient sound, including other, concurrently active sources. It is used by the audio engineering community for decades for audio recording, based on a number of empirical rules that were evolved during the recording practice itself. But can this empirical knowledge and close miking practice be systematically verified? In this work we aim to address this question based on an analytic methodology that employs techniques and metrics originating from the sound source separation evaluation field. In particular, we apply a quantitative analysis of the source separation capabilities of the close miking technique. The analysis is applied on a recording dataset obtained at multiple positions of a typical musical hall, multiple distances between the microphone and the sound source multiple microphone types and multiple level differences between the sound source and the ambient acoustic component. For all the above cases we calculate the Source to Interference Ratio (SIR) metric. The results obtained clearly demonstrate an optimum close-miking performance that matches the current empirical knowledge of professional audio recording.",
     year = "2017",
@@ -2951,7 +2951,7 @@
 }
 
 @article{2021_SPM,
-    author = "Mesaros, Annamaria and Heittola, Toni and Virtanen, Tuomas and Plumbley, {Mark D.}",
+    author = "Mesaros, Annamaria and Heittola, Toni and Virtanen, Tuomas and Plumbley, Mark D.",
     title = "Sound Event Detection: A tutorial",
     abstract = {Imagine standing on a street corner in the city. With your eyes closed you can hear and recognize a succession of sounds: cars passing by, people speaking, their footsteps when they walk by, and the continuous falling of rain. The recognition of all these sounds and interpretation of the perceived scene as a city street soundscape comes naturally to humans. It is, however, the result of years of {"}training{"}: encountering and learning associations among the vast varieties of sounds in everyday life, the sources producing these sounds, and the names given to them.},
     keywords = "Acoustics, Urban areas, Tutorials",
@@ -3007,7 +3007,7 @@
 }
 
 @inproceedings{2003_a,
-    author = "Paulus, {J. K.} and Klapuri, {A. P.}",
+    author = "Paulus, J. K. and Klapuri, A. P.",
     title = "Conventional and periodic N-grams in the transcription of drum sequences",
     note = "ISBN 0-7803-7965-9, 0-7803-7966-7 cd<br/>Contribution: organisation=sgn,FACT1=1",
     year = "2003",
@@ -3032,8 +3032,8 @@
 }
 
 @inproceedings{2003_SPIE_a,
-    author = {Pirinen, {T. W.} and Pertil{\"a}, {P. E.} and Visa, {A. J.}},
-    editor = "Carapezza, {E. M.}",
+    author = {Pirinen, T. W. and Pertil{\"a}, P. E. and Visa, A. J.},
+    editor = "Carapezza, E. M.",
     title = "A new method for outlier removal in time delay based direction of arrival estimates",
     note = "ISBN 0-8194-4950-4, ISSN 0277-786X<br/>Contribution: organisation=sgn,FACT1=1; SPIE CONFERENCE PROCEEDINGS ; Conference date: 01-01-1900",
     year = "2003",
@@ -3076,7 +3076,7 @@
 }
 
 @article{2019_DSP,
-    author = "Garcia-Molla, {Victor M.} and {San Juan}, Pablo and Virtanen, Tuomas and Vidal, {Antonio M.} and Alonso, Pedro",
+    author = "Garcia-Molla, Victor M. and San Juan, Pablo and Virtanen, Tuomas and Vidal, Antonio M. and Alonso, Pedro",
     title = "Generalization of the K-SVD algorithm for minimization of β-divergence",
     abstract = "In this paper, we propose, describe, and test a modification of the K-SVD algorithm. Given a set of training data, the proposed algorithm computes an overcomplete dictionary by minimizing the β-divergence (β>=1) between the data and its representation as linear combinations of atoms of the dictionary, under strict sparsity restrictions. For the special case β=2, the proposed algorithm minimizes the Frobenius norm and, therefore, for β=2 the proposed algorithm is equivalent to the original K-SVD algorithm. We describe the modifications needed and discuss the possible shortcomings of the new algorithm. The algorithm is tested with random matrices and with an example based on speech separation.",
     keywords = "Beta-divergence, K-SVD, Matching pursuit algorithms, NMF, Nonnegative K-SVD",
@@ -3109,7 +3109,7 @@
 }
 
 @inproceedings{2011_CHiME_b,
-    author = "Hurmalainen, Antti and Mahkonen, Katariina and Gemmeke, {Jort F.} and Virtanen, Tuomas",
+    author = "Hurmalainen, Antti and Mahkonen, Katariina and Gemmeke, Jort F. and Virtanen, Tuomas",
     title = "Exemplar-based Recognition of Speech in Highly Variable Noise",
     note = "ei ut-numeroa 8.3.2014<br/>Contribution: organisation=sgn,FACT1=1",
     year = "2011",
@@ -3131,7 +3131,7 @@
 }
 
 @inproceedings{2023_c,
-    author = {R{\"a}s{\"a}nen, Okko and {Cruz Blandon}, Maria and Lepp{\"a}nen, Jukka},
+    author = {R{\"a}s{\"a}nen, Okko and Cruz Blandon, Maria and Lepp{\"a}nen, Jukka},
     title = "Is Reliability of Cognitive Measures in Children Dependent on Participant Age? A Case Study with Two Large-Scale Datasets",
     abstract = "When assessing children in laboratory experiments, the measured responses also contain task-irrelevant participant-level variability (“noise”) and measurement noise. Since experimental data are used to make inferences of development of cognitive capabilities with age, it is important to know if reliability of the used measurements depends on child age. Any systematic age-dependent changes in reliability could result in misleading developmental trajectories, as lower reliability will necessarily result in smaller effect sizes. This paper examines age-dependency of task-independent measurement variability in early childhood (3–40 months) by analyzing two large-scale datasets of participant-level experimental responses: the ManyBabies infant-directed speech preference (MB-IDS) dataset and a saccadic reaction time (SRT) dataset collected from rural South Africa. Analysis of participant- and study-level data reveals that MB-IDS shows comparable reliability across the included age range. In contrast, SRTs reflect systematically increasing measurement consistency with increasing age. Potential reasons and implications of this divergence are briefly discussed.",
     year = "2023",
@@ -3319,8 +3319,8 @@
 }
 
 @inbook{2018_i,
-    author = "Virtanen, Tuomas and Plumbley, {Mark D.} and Ellis, Dan",
-    editor = "Virtanen, Tuomas and Plumbley, {Mark D.} and Ellis, Dan",
+    author = "Virtanen, Tuomas and Plumbley, Mark D. and Ellis, Dan",
+    editor = "Virtanen, Tuomas and Plumbley, Mark D. and Ellis, Dan",
     title = "Introduction to sound scene and event analysis",
     abstract = "Developing computational systems requires methods for evaluating their performance to guide development and compare alternate approaches. A reliable evaluation procedure for a classification or recognition system will involve a standard dataset of example input data along with the intended target output, and well-defined metrics to compare the systems' outputs with this ground truth. This chapter examines the important factors in the design and construction of evaluation datasets and goes through the metrics commonly used in system evaluation, comparing their properties. We include a survey of currently available datasets for environmental sound scene and event recognition and conclude with advice for designing evaluation protocols.",
     year = "2018",
@@ -3557,7 +3557,7 @@
 }
 
 @inproceedings{2012_ICA,
-    author = "Rodriguez-Serrano, {Francisco J.} and Carabias-Orti, {Julio J.} and Vera-Candeas, Pedro and Virtanen, Tuomas and Ruiz-Reyes, Nicolas",
+    author = "Rodriguez-Serrano, Francisco J. and Carabias-Orti, Julio J. and Vera-Candeas, Pedro and Virtanen, Tuomas and Ruiz-Reyes, Nicolas",
     editor = "Fabian, Theis and Andrzej, Cichocki and Arie, Yeredor and Michael, Zibulevsky",
     title = "Multiple Instrument Mixtures Source Separation Evaluation Using Instrument-Dependent NMF Models",
     note = "Ei UT-numeroa 29.8.2013<br/>Contribution: organisation=sgn,FACT1=1<br/>Publisher name: Springer",
@@ -3572,7 +3572,7 @@
 }
 
 @inproceedings{2011_EUSIPCO_a,
-    author = "Gemmeke, {Jort F.} and Hurmalainen, Antti and Virtanen, Tuomas and Sun, Yang",
+    author = "Gemmeke, Jort F. and Hurmalainen, Antti and Virtanen, Tuomas and Sun, Yang",
     title = "Toward A Practical Implementation Of Exemplar-Based Noise Robust ASR",
     note = "ei ut-numeroa 1.3.2014<br/>Contribution: organisation=sgn,FACT1=1",
     year = "2011",
@@ -3612,7 +3612,7 @@
 }
 
 @inproceedings{2005_ICA_a,
-    author = {Ryyn{\"a}nen, {M. P.} and Klapuri, A.},
+    author = {Ryyn{\"a}nen, M. P. and Klapuri, A.},
     title = "Polyphonic music transcription using note event modeling",
     note = "ISBN 0-7803-9154-3<br/>Contribution: organisation=sgn,FACT1=1",
     year = "2005",
@@ -3637,7 +3637,7 @@
 }
 
 @inproceedings{2014_InterSpecch_a,
-    author = "Barker, Tom and {Van Hamme}, Hugo and Virtanen, Tuomas",
+    author = "Barker, Tom and Van Hamme, Hugo and Virtanen, Tuomas",
     title = "Modelling Primitive Streaming of Simple Tone Sequences Through Factorisation of Modulation Pattern Tensors",
     note = "Contribution: organisation=sgn,FACT1=1<br/>Portfolio EDEND: 2014-09-30; Interspeech ; Conference date: 01-01-1900",
     year = "2014",
@@ -3648,8 +3648,8 @@
 }
 
 @inproceedings{2021_DCASE 2021_a,
-    author = "{Martin Morato}, Irene and Heittola, Toni and Mesaros, Annamaria and Virtanen, Tuomas",
-    editor = "Font, Frederic and { Mesaros}, Annamaria and {P.W. Ellis}, Daniel and Fonseca, Eduardo and Fuentes, Magdalena and Elizalde, Benjamin",
+    author = "Martin Morato, Irene and Heittola, Toni and Mesaros, Annamaria and Virtanen, Tuomas",
+    editor = "Font, Frederic and Mesaros, Annamaria and P.W. Ellis, Daniel and Fonseca, Eduardo and Fuentes, Magdalena and Elizalde, Benjamin",
     title = "Low-complexity acoustic scene classification for multi-device audio: analysis of DCASE 2021 Challenge systems",
     abstract = "This paper presents the details of Task 1A Acoustic Scene Classification in the DCASE 2021 Challenge. The task targeted development of low-complexity solutions with good generalization properties. The provided baseline system is based on a CNN architecture and post-training quantization of parameters. The system is trained using all the available training data, without any specific technique for handling device mismatch, and obtains an overall accuracy of 47.7\\%, with a log loss of 1.473. The task received 99 submissions from 30 teams, and most of the submitted systems outperformed the baseline. The most used techniques among the submissions were residual networks and weight quantization, with the top systems reaching over 70\\% accuracy, and log loss under 0.8. The acoustic scene classification task remained a popular task in the challenge, despite the increasing difficulty of the setup.",
     year = "2021",
@@ -3679,7 +3679,7 @@
 }
 
 @inproceedings{2010_InterSpecch_b,
-    author = "Virtanen, Tuomas and Gemmeke, {Jort F.} and Hurmalainen, Antti",
+    author = "Virtanen, Tuomas and Gemmeke, Jort F. and Hurmalainen, Antti",
     title = "State-based labelling for a sparse representation of speech and its application to robust speech recognition",
     note = "Contribution: organisation=sgn,FACT1=1; Interspeech ; Conference date: 01-01-1900",
     year = "2010",
@@ -3689,7 +3689,7 @@
 }
 
 @inproceedings{2013_ICASSP_c,
-    author = "Giannoulis, Dimitrios and Klapuri, Anssi and Plumbley, {Mark D.}",
+    author = "Giannoulis, Dimitrios and Klapuri, Anssi and Plumbley, Mark D.",
     title = "Recognition of harmonic sounds in polyphonic audio using a missing feature approach",
     note = "Contribution: organisation=sgn,FACT1=1<br/>Portfolio EDEND: 2013-12-29<br/>Publisher name: Institute of Electrical and Electronics Engineers IEEE; IEEE International Conference on Acoustics, Speech and Signal Processing ; Conference date: 01-01-1900 Through 01-01-2000",
     year = "2013",
@@ -3738,7 +3738,7 @@
 
 @inproceedings{2021_DCASE2021,
     author = "Wang, Shanshan and Heittola, Toni and Mesaros, Annamaria and Virtanen, Tuomas",
-    editor = "Font, Frederic and Mesaros, Annamaria and {P.W. Ellis}, Daniel and Fonseca, Eduardo and Fuentes, Magdalena and Elizalde, Benjamin",
+    editor = "Font, Frederic and Mesaros, Annamaria and P.W. Ellis, Daniel and Fonseca, Eduardo and Fuentes, Magdalena and Elizalde, Benjamin",
     title = "Audio-visual scene classification: analysis of DCASE 2021 Challenge submissions",
     abstract = "This paper presents the details of the Audio-Visual Scene Classification task in the DCASE 2021 Challenge (Task 1 Subtask B). The task is concerned with classification using audio and video modalities, using a dataset of synchronized recordings. This task has attracted 43 submissions from 13 different teams around the world. Among all submissions, more than half of the submitted systems have better performance than the baseline. The common techniques among the top systems are the usage of large pretrained models such as ResNet or EfficientNet which are trained for the task-specific problem. Fine-tuning, transfer learning, and data augmentation techniques are also employed to boost the performance. More importantly, multi-modal methods using both audio and video are employed by all the top 5 teams. The best system among all achieved a logloss of 0.195 and accuracy of 93.8\textbackslash{}\\%, compared to the baseline system with logloss of 0.662 and accuracy of 77.1\\%.",
     year = "2021",
@@ -3760,7 +3760,7 @@
 }
 
 @inproceedings{2020_MMSP_a,
-    author = {Pyykk{\"o}nen, Pyry and Mimilakis, {Stylianos I.} and Drossos, Konstantinos and Virtanen, Tuomas},
+    author = {Pyykk{\"o}nen, Pyry and Mimilakis, Stylianos I. and Drossos, Konstantinos and Virtanen, Tuomas},
     title = "Depthwise Separable Convolutions Versus Recurrent Neural Networks for Monaural Singing Voice Separation",
     abstract = "Recent approaches for music source separation are almost exclusively based on deep neural networks, mostly employing recurrent neural networks (RNNs). Although RNNs are in many cases superior than other types of deep neural networks for sequence processing, they are known to have specific difficulties in training and parallelization, especially for the typically long sequences encountered in music source separation. In this paper we present a use-case of replacing RNNs with depth-wise separable (DWS) convolutions, which are a lightweight and faster variant of the typical convolutions. We focus on singing voice separation, employing an RNN architecture, and we replace the RNNs with DWS convolutions (DWS-CNNs). We conduct an ablation study and examine the effect of the number of channels and layers of DWS-CNNs on the source separation performance, by utilizing the standard metrics of signal-to-artifacts, signal-to-interference, and signal-to-distortion ratio. Our results show that by replacing RNNs with DWS-CNNs yields an improvement of 1.20, 0.06, 0.37 dB, respectively, while using only 20.57\\% of the amount of parameters of the RNN architecture.",
     note = "jufoid=70574; IEEE International Workshop on Multimedia Signal Processing ; Conference date: 01-01-1900",
@@ -3941,7 +3941,7 @@
 }
 
 @inproceedings{2005_ICA_b,
-    author = "Klapuri, {A. P.}",
+    author = "Klapuri, A. P.",
     title = "A perceptually motivated multiple-F0 estimation method",
     note = "ISBN 0-7803-9154-3<br/>Contribution: organisation=sgn,FACT1=1",
     year = "2005",
@@ -3951,7 +3951,7 @@
 }
 
 @inproceedings{2022_DCASE,
-    author = "Politis, Archontis and Shimada, Kazuki and {Ariyakulam Sudarsanam}, Parthasaarathy and Adavanne, Sharath and Krause, Daniel and Koyama, Yuichiro and Takahashi, Naoya and Takahashi, Shusuke and Mitsufuji, Yuki and Virtanen, Tuomas",
+    author = "Politis, Archontis and Shimada, Kazuki and Ariyakulam Sudarsanam, Parthasaarathy and Adavanne, Sharath and Krause, Daniel and Koyama, Yuichiro and Takahashi, Naoya and Takahashi, Shusuke and Mitsufuji, Yuki and Virtanen, Tuomas",
     title = "STARSS22: A dataset of spatial recordings of real scenes with spatiotemporal annotations of sound event",
     year = "2022",
     language = "English",
@@ -3979,7 +3979,7 @@
 }
 
 @inproceedings{2020_ICML,
-    author = {{Cruz Blandon}, {Maria Andrea} and R{\"a}s{\"a}nen, Okko},
+    author = {Cruz Blandon, Maria Andrea and R{\"a}s{\"a}nen, Okko},
     title = "Analysis of Predictive Coding Models for Phonemic Representation Learning in Small Datasets",
     abstract = "Neural network models using predictive coding are interesting from the viewpoint of computational modelling of human language acquisition, where the objective is to understand how linguistic units could be learned from speech without any labels. Even though several promising predictive coding -based learning algorithms have been proposed in the literature, it is currently unclear how well they generalise to different languages and training dataset sizes. In addition, despite that such models have shown to be effective phonemic feature learners, it is unclear whether minimisation of the predictive loss functions of these models also leads to optimal phoneme-like representations. The present study investigates the behaviour of two predictive coding models, Autoregressive Predictive Coding and Contrastive Predictive Coding, in a phoneme discrimination task (ABX task) for two languages with different dataset sizes. Our experiments show a strong correlation between the autoregressive loss and the phoneme discrimination scores with the two datasets. However, to our surprise, the CPC model shows rapid convergence already after one pass over the training data, and, on average, its representations outperform those of APC on both languages.",
     year = "2020",
@@ -3989,7 +3989,7 @@
 }
 
 @inproceedings{2004_ISCA_a,
-    author = {Ryyn{\"a}nen, {M. P.} and Klapuri, {A. P.}},
+    author = {Ryyn{\"a}nen, M. P. and Klapuri, A. P.},
     title = "Modelling of note events for singing transcription",
     note = "Contribution: organisation=sgn,FACT1=1",
     year = "2004",
@@ -4061,7 +4061,7 @@
 }
 
 @article{2006_f,
-    author = "Klapuri, {A. P.} and Eronen, {A. J.} and Astola, J.",
+    author = "Klapuri, A. P. and Eronen, A. J. and Astola, J.",
     title = "Analysis of the meter of acoustic musical signals",
     note = "ISSN 1558-7916<br/>Contribution: organisation=sgn,FACT1=1",
     year = "2006",
@@ -4103,7 +4103,7 @@
 }
 
 @inproceedings{2017_WASPAA_d,
-    author = "Naithani, Gaurav and Barker, Thomas and Parascandolo, Giambattista and Bramsl{\o}w, Lars and Pontoppidan, {Niels Henrik} and Virtanen, Tuomas",
+    author = "Naithani, Gaurav and Barker, Thomas and Parascandolo, Giambattista and Bramsl{\o}w, Lars and Pontoppidan, Niels Henrik and Virtanen, Tuomas",
     title = "Low Latency Sound Source Separation Using Convolutional Recurrent Neural Networks",
     year = "2017",
     doi = "10.1109/WASPAA.2017.8169997",
@@ -4189,7 +4189,7 @@
 }
 
 @inproceedings{2016_AES_a,
-    author = "Mimilakis, {Stylianos Ioannis} and Drossos, Konstantinos and Virtanen, Tuomas and Schuller, Gerald",
+    author = "Mimilakis, Stylianos Ioannis and Drossos, Konstantinos and Virtanen, Tuomas and Schuller, Gerald",
     title = "Deep Neural Networks for Dynamic Range Compression in Mastering Applications",
     abstract = "The process of audio mastering often, if not always, includes various audio signal processing techniques such as frequency equalization and dynamic range compression. With respect to the genre and style of the audio content, the parameters of these techniques are controlled by a mastering engineer, in order to process the original audio material. This operation relies on musical and perceptually pleasing facets of the perceived acoustic characteristics, transmitted from the audio material under the mastering process. Modeling such dynamic operations, which involve adaptation regarding the audio content, becomes vital in automated applications since it significantly affects the overall performance. In this work we present a system capable of modelling such behavior focusing on the automatic dynamic range compression. It predicts frequency coefficients that allow the dynamic range compression, via a trained deep neural network, and applies them to unmastered audio signal served as input. Both dynamic range compression and the prediction of the corresponding frequency coefficients take place inside the time-frequency domain, using magnitude spectra acquired from a critical band filter bank, similar to humans{\textquoteright} peripheral auditory system. Results from conducted listening tests, incorporating professional music producers and audio mastering engineers, demonstrate on average an equivalent performance compared to professionally mastered audio content. Improvements were also observed when compared to relevant and commercial software.",
     year = "2016",
@@ -4241,7 +4241,7 @@
 }
 
 @inproceedings{2014_ICASSP_c,
-    author = "Baby, Deepak and Virtanen, Tuomas and Barker, Tom and {Van hamme}, Hugo",
+    author = "Baby, Deepak and Virtanen, Tuomas and Barker, Tom and Van hamme, Hugo",
     title = "Coupled Dictionary Training for Exemplar-Based Speech Enhancement",
     note = "Contribution: organisation=sgn,FACT1=1<br/>Portfolio EDEND: 2014-09-24<br/>Publisher name: Institute of Electrical and Electronics Engineers IEEE; IEEE International Conference on Acoustics, Speech and Signal Processing ; Conference date: 01-01-1900 Through 01-01-2000",
     year = "2014",
@@ -4300,8 +4300,8 @@
 }
 
 @inbook{2018_j,
-    author = "Ellis, Dan and Virtanen, Tuomas and Plumbley, {Mark D.} and Raj, Bhiksha",
-    editor = "Virtanen, Tuomas and Plumbley, {Mark D.} and Ellis, Dan",
+    author = "Ellis, Dan and Virtanen, Tuomas and Plumbley, Mark D. and Raj, Bhiksha",
+    editor = "Virtanen, Tuomas and Plumbley, Mark D. and Ellis, Dan",
     title = "Future Perspective",
     abstract = "This book has covered the underlying principles and technologies of sound recognition, and described several current application areas. However, the field is still very young; this chapter briefly outlines several emerging areas, particularly relating to the provision of the very large training sets that can be exploited by deep learning approaches. We also forecast some of the technological and application advances we expect in the short-to-medium future.",
     year = "2018",
@@ -4325,7 +4325,7 @@
 }
 
 @inproceedings{2013_in conjuction with ICASSP_b,
-    author = {Hurmalainen, Antti and Virtanen, Tuomas and Gemmeke, {Jort F.} and W{\"o}llmer, Martin and Schuller, Bj{\"o}rn and Rigoll, Gerhard},
+    author = {Hurmalainen, Antti and Virtanen, Tuomas and Gemmeke, Jort F. and W{\"o}llmer, Martin and Schuller, Bj{\"o}rn and Rigoll, Gerhard},
     title = "Compact long context spectral factorization models for noise robust recognition of medium vocabulary speech",
     note = "Oral Session<br/>Contribution: organisation=sgn,FACT1=1<br/>Portfolio EDEND: 2013-12-29<br/>Publisher name: International Workshop on Machine Listening in Multisource Environments",
     year = "2013",
@@ -4476,7 +4476,7 @@
 
 @inproceedings{2025_ICASSP,
     author = "Heikkinen, Mikko and Politis, Archontis and Drossos, Konstantinos and Virtanen, Tuomas",
-    editor = "Rao, {Bhaskar D} and Trancoso, Isabel and Sharma, Gaurav and Mehta, {Neelesh B.}",
+    editor = "Rao, Bhaskar D and Trancoso, Isabel and Sharma, Gaurav and Mehta, Neelesh B.",
     title = "Gen-A: Generalizing Ambisonics Neural Encoding to Unseen Microphone Arrays",
     abstract = "Using deep neural networks (DNNs) for encoding of microphone array (MA) signals to the Ambisonics spatial audio format can surpass certain limitations of established conventional methods, but existing DNN-based methods need to be trained separately for each MA. This paper proposes a DNN-based method for Ambisonics encoding that can generalize to arbitrary MA geometries unseen during training. The method takes as inputs the MA geometry and MA signals and uses a multi-level encoder consisting of separate paths for geometry and signal data, where geometry features inform the signal encoder at each level. The method is validated in simulated anechoic and reverberant conditions with one and two sources. The results indicate improvement over conventional encoding across the whole frequency range for dry scenes, while for reverberant scenes the improvement is frequency-dependent.",
     keywords = "Ambisonics, deep learning, microphone array, Spatial audio",
@@ -4518,8 +4518,8 @@
 }
 
 @inproceedings{2025_ICASSP_a,
-    author = "Mesaros, Annamaria and Serizel, Romain and Heittola, Toni and Virtanen, Tuomas and Plumbley, {Mark D.}",
-    editor = "Rao, {Bhaskar D} and Trancoso, Isabel and Sharma, Gaurav and Mehta, {Neelesh B.}",
+    author = "Mesaros, Annamaria and Serizel, Romain and Heittola, Toni and Virtanen, Tuomas and Plumbley, Mark D.",
+    editor = "Rao, Bhaskar D and Trancoso, Isabel and Sharma, Gaurav and Mehta, Neelesh B.",
     title = "A decade of DCASE: Achievements, practices, evaluations and future challenges",
     abstract = "This paper introduces briefly the history and growth of the Detection and Classification of Acoustic Scenes and Events (DCASE) challenge, workshop, research area and research community. Created in 2013 as a data evaluation challenge, DCASE has become a major research topic in the Audio and Acoustic Signal Processing area. Its success comes from a combination of factors: the challenge offers a large variety of tasks that are renewed each year; and the workshop offers a channel for dissemination of related work, engaging a young and dynamic community. At the same time, DCASE faces its own challenges, growing and expanding to different areas. One of the core principles of DCASE is open science and reproducibility: publicly available datasets, baseline systems, technical reports and workshop publications. While the DCASE challenge and workshop are independent of IEEE SPS, the challenge receives annual endorsement from the AASP TC, and the DCASE community contributes significantly to the ICASSP flagship conference and the success of SPS in many of its activities.",
     keywords = "AASP Challenges, DCASE Challenge, DCASE Workshop",
@@ -4628,7 +4628,7 @@
 }
 
 @article{2014_c,
-    author = "Wu, Zhizheng and Virtanen, Tuomas and Chng, {Eng Siong} and Li, Haizhou",
+    author = "Wu, Zhizheng and Virtanen, Tuomas and Chng, Eng Siong and Li, Haizhou",
     title = "Exemplar-Based Sparse representation with Residual Compensation for Voice Conversion",
     note = "Contribution: organisation=sgn,FACT1=1<br/>Portfolio EDEND: 2014-12-20<br/>Publisher name: Institute of Electrical and Electronics Engineers",
     year = "2014",
@@ -4643,7 +4643,7 @@
 }
 
 @inproceedings{2023_d,
-    author = {{Cruz Blandon}, Maria and Cristia, Alejandrina and R{\"a}s{\"a}nen, Okko},
+    author = {Cruz Blandon, Maria and Cristia, Alejandrina and R{\"a}s{\"a}nen, Okko},
     title = "Analysing the Impact of Audio Quality on the Use of Naturalistic Long-Form Recordings for Infant-Directed Speech Research",
     abstract = "Modelling of early language acquisition aims to understand how infants bootstrap their language skills. The modelling encompasses properties of the input data used for training the models, the cognitive hypotheses and their algorithmic implementations being tested, and the evaluation methodologies to compare models to human data. Recent developments have enabled the use of more naturalistic training data for computational models. This also motivates development of more naturalistic tests of model behaviour. A crucial step towards such an aim is to develop representative speech datasets consisting of speech heard by infants in their natural environments. However, a major drawback of such recordings is that they are typically noisy, and it is currently unclear how the sound quality could affect analyses and modelling experiments conducted on such data. In this paper, we explore this aspect for the case of infant-directed speech (IDS) and adult-directed speech (ADS) analysis. First, we manually and automatically annotated audio quality of utterances extracted from two corpora of child-centred long-form recordings (in English and French). We then compared acoustic features of IDS and ADS in an in-lab dataset and across different audio quality subsets of naturalistic data. Finally, we assessed how the audio quality and recording environment may change the conclusions of a modelling analysis using a recent self-supervised learning model. Our results show that the use of modest and high audio quality naturalistic speech data result in largely similar conclusions on IDS and ADS in terms of acoustic analyses and modelling experiments. We also found that an automatic sound quality assessment tool can be used to screen out useful parts of long-form recordings for a closer analysis with comparable results to that of manual quality annotation.",
     year = "2023",
@@ -4919,7 +4919,7 @@
 }
 
 @inproceedings{2013_MLSP,
-    author = "Briggs, Forrest and Huang, Yonghong and Raich, Raviv and Eftaxias, Konstatinos and Lei, Zhong and Cukierski, William and Hadley, {Sarah Frey} and Hadley, Adam and Betts, Matthew and Fern, {Xiaoli Z.} and Irvine, Jed and Neal, Lawrence and Thomas, Anil and Fodor, Gabor and Tsoumakas, Grigorios and Huttunen, Heikki and Ruusuvuori, Pekka and Manninen, Tapio and Diment, Aleksandr and Virtanen, Tuomas",
+    author = "Briggs, Forrest and Huang, Yonghong and Raich, Raviv and Eftaxias, Konstatinos and Lei, Zhong and Cukierski, William and Hadley, Sarah Frey and Hadley, Adam and Betts, Matthew and Fern, Xiaoli Z. and Irvine, Jed and Neal, Lawrence and Thomas, Anil and Fodor, Gabor and Tsoumakas, Grigorios and Huttunen, Heikki and Ruusuvuori, Pekka and Manninen, Tapio and Diment, Aleksandr and Virtanen, Tuomas",
     title = "The 9th Annual MLSP Competition: New Methods For Acoustic Classification Of Multiple Simultaneous Bird Species In a Noisy Environment",
     note = "Contribution: organisation=sgn,FACT1=1<br/>Portfolio EDEND: 2013-12-29<br/>Publisher name: Institute of Electrical and Electronics Engineers IEEE",
     year = "2013",
@@ -5054,7 +5054,7 @@
 }
 
 @article{2007_JNMR,
-    author = "McKiney, {M. F.} and Moelants, D. and Davies, {M. E. P.} and Klapuri, A.",
+    author = "McKiney, M. F. and Moelants, D. and Davies, M. E. P. and Klapuri, A.",
     title = "Evaluation of audio beat tracking and music tempo extraction algorithms",
     note = "Contribution: organisation=sgn,FACT1=1",
     year = "2007",
@@ -5087,7 +5087,7 @@
 }
 
 @inproceedings{2017_WASPAA_e,
-    author = "Magron, Paul and {Le Roux}, Jonathan and Virtanen, Tuomas",
+    author = "Magron, Paul and Le Roux, Jonathan and Virtanen, Tuomas",
     title = "Consistent Anisotropic Wiener Filtering for Audio Source Separation",
     abstract = "For audio source separation applications, it is common to apply a Wiener-like filtering to a time-frequency (TF) representation of the data, such as the short-Time Fourier transform (STFT). This approach, in which the phase of the original mixture is assigned to each component, is limited when sources overlap in the TF domain. In this paper, we propose to improve this technique by accounting for two properties of the phase. First, we model the sources by anisotropic Gaussian variables: This model accounts for the non-uniformity of the phase, and permits us to incorporate some prior information about the phase that originates from a sinusoidal model. Second, we exploit the STFT consistency, which is the relationship between STFT coefficients that is due to the redundancy of the STFT. We derive a conjugate gradient algorithm for estimating the corresponding filter, which we refer to as the consistent anisotropic Wiener filter. Experiments conducted on music pieces show that the proposed approach yields results similar to or better than the state-of-The-Art with a dramatic reduction of the computation time.",
     year = "2017",
@@ -5137,7 +5137,7 @@
 }
 
 @inproceedings{2023_InterSpecch_a,
-    author = {Lavechin, Marvin and Sy, Yaya and Titeux, Hadrien and Bland{\'o}n, {Mar{\'i}a Andrea Cruz} and R{\"a}s{\"a}nen, Okko and Bredin, Herv{\'e} and Dupoux, Emmanuel and Cristia, Alejandrina},
+    author = {Lavechin, Marvin and Sy, Yaya and Titeux, Hadrien and Bland{\'o}n, Mar{\'i}a Andrea Cruz and R{\"a}s{\"a}nen, Okko and Bredin, Herv{\'e} and Dupoux, Emmanuel and Cristia, Alejandrina},
     title = "BabySLM: language-acquisition-friendly benchmark of self-supervised spoken language models",
     abstract = "Self-supervised techniques for learning speech representations have been shown to develop linguistic competence from exposure to speech without the need for human labels. In order to fully realize the potential of these approaches and further our understanding of how infants learn language, simulations must closely emulate real-life situations by training on developmentally plausible corpora and benchmarking against appropriate test sets. To this end, we propose a language-acquisition-friendly benchmark to probe spoken language models at the lexical and syntactic levels, both of which are compatible with the vocabulary typical of children's language experiences. This paper introduces the benchmark and summarizes a range of experiments showing its usefulness. In addition, we highlight two exciting challenges that need to be addressed for further progress: bridging the gap between text and speech and between clean speech and in-the-wild speech.",
     keywords = "child language, language acquisition, self-supervised learning, spoken language modeling",
@@ -5152,7 +5152,7 @@
 }
 
 @inproceedings{2024_DCASE 2024,
-    author = "{Diaz-Guerra Aparicio}, David and Politis, Archontis and {Ariyakulam Sudarsanam}, Parthasaarathy and Shimada, Kazuki and Krause, Daniel and Uchida, Kengo and Koyama, Yuichiro and Takahashi, Naoya and Takahashi, Shusuke and Shibuya, Takashi and Mitsufuji, Yuki and Virtanen, Tuomas",
+    author = "Diaz-Guerra Aparicio, David and Politis, Archontis and Ariyakulam Sudarsanam, Parthasaarathy and Shimada, Kazuki and Krause, Daniel and Uchida, Kengo and Koyama, Yuichiro and Takahashi, Naoya and Takahashi, Shusuke and Shibuya, Takashi and Mitsufuji, Yuki and Virtanen, Tuomas",
     title = "Baseline models and evaluation of sound event localization and detection with distance estimation in DCASE 2024 Challenge",
     year = "2024",
     language = "English",
@@ -5176,7 +5176,7 @@
 }
 
 @article{2011_JSTSP,
-    author = "Carabias-Orti, {J. J.} and Virtanen, Tuomas and Vera-Candeas, P. and Ruiz-Reyes, N. and Canadas-Quesada, {F. J.}",
+    author = "Carabias-Orti, J. J. and Virtanen, Tuomas and Vera-Candeas, P. and Ruiz-Reyes, N. and Canadas-Quesada, F. J.",
     title = "Musical Instrument Sound Multi-Excitation Model for Non-negative Spectrogram Factorization",
     note = "Contribution: organisation=sgn,FACT1=1",
     year = "2011",
@@ -5208,7 +5208,7 @@
 }
 
 @inproceedings{2005,
-    author = {Pirinen, {T. W.} and Pertil{\"a}, P. and Parviainen, M.},
+    author = {Pirinen, T. W. and Pertil{\"a}, P. and Parviainen, M.},
     title = "The TUT 2005 source localization system",
     note = "Contribution: organisation=sgn,FACT1=1",
     year = "2005",
@@ -5235,7 +5235,7 @@
 }
 
 @inproceedings{2019_ICASSP_c,
-    author = "Mart{\'i}n-Morat{\'o}, Irene and Mesaros, Annamaria and Heittola, Toni and Virtanen, Tuomas and Cobos, Maximo and Ferri, {Francesc J.}",
+    author = "Mart{\'i}n-Morat{\'o}, Irene and Mesaros, Annamaria and Heittola, Toni and Virtanen, Tuomas and Cobos, Maximo and Ferri, Francesc J.",
     title = "Sound Event Envelope Estimation in Polyphonic Mixtures",
     abstract = "Sound event detection is the task of identifying automatically the presence and temporal boundaries of sound events within an input audio stream. In the last years, deep learning methods have established themselves as the state-of-the-art approach for the task, using binary indicators during training to denote whether an event is active or inactive. However, such binary activity indicators do not fully describe the events, and estimating the envelope of the sounds could provide more precise modeling of their activity. This paper proposes to estimate the amplitude envelopes of target sound event classes in polyphonic mixtures. For training, we use the amplitude envelopes of the target sounds, calculated from mixture signals and, for comparison, from their isolated counterparts. The model is then used to perform envelope estimation and sound event detection. Results show that the envelope estimation allows good modeling of the sounds activity, with detection results comparable to current state-of-the art.",
     keywords = "acoustic signal detection, acoustic signal processing, learning (artificial intelligence), sound event envelope estimation, polyphonic mixtures, sound event detection, input audio stream, deep learning methods, binary activity indicators, amplitude envelopes, target sound event classes, sounds activity, Training, Estimation, Event detection, Acoustics, Signal to noise ratio, Automobiles, Dogs, Sound event detection, Envelope estimation, Deep Neural Networks",
@@ -5254,7 +5254,7 @@
 }
 
 @article{2013_g,
-    author = "Virtanen, Tuomas and Gemmeke, {Jort F.} and Raj, Bhiksha",
+    author = "Virtanen, Tuomas and Gemmeke, Jort F. and Raj, Bhiksha",
     title = "Active-set newton algorithm for overcomplete non-negative representations of audio",
     note = "Contribution: organisation=sgn,FACT1=1<br/>Portfolio EDEND: 2013-12-29<br/>Publisher name: Institute of Electrical and Electronics Engineers IEEE",
     year = "2013",
@@ -5279,7 +5279,7 @@
 }
 
 @inproceedings{2019_EUSIPCO,
-    author = "Ahsan, {M. N. Istiaq} and Kertesz, C. and Mesaros, A. and Heittola, T. and Knight, A. and Virtanen, T.",
+    author = "Ahsan, M. N. Istiaq and Kertesz, C. and Mesaros, A. and Heittola, T. and Knight, A. and Virtanen, T.",
     title = "Audio-Based Epileptic Seizure Detection",
     abstract = "This paper investigates automatic epileptic seizure detection from audio recordings using convolutional neural networks. The labeling and analysis of seizure events are necessary in the medical field for patient monitoring, but the manual annotation by expert annotators is time-consuming and extremely monotonous. The proposed method treats all seizure vocalizations as a single target event class, and models the seizure detection problem in terms of detecting the target vs non-target classes. For detection, the method employs a convolutional neural network trained to detect the seizure events in short time segments, based on mel-energies as feature representation. Experiments carried out with different seizure types on 900 hours of audio recordings from 40 patients show that the proposed approach can detect seizures with over 80\\% accuracy, with a 13\\% false positive rate and a 22.8\\% false negative rate.",
     keywords = "Epileptic seizure detection, convolutional neural network (CNN), sound event detection, audio processing and analysis.",
@@ -5422,7 +5422,7 @@
 }
 
 @inproceedings{2011_InterSpecch_b,
-    author = {Kallasjoki, Heikki and Remes, Ulpu and Gemmeke, {Jort F.} and Virtanen, Tuomas and Palom{\"a}ki, {Kalle J.}},
+    author = {Kallasjoki, Heikki and Remes, Ulpu and Gemmeke, Jort F. and Virtanen, Tuomas and Palom{\"a}ki, Kalle J.},
     title = "Uncertainty Measures for Improving Exemplar-Based Source Separation",
     note = "Contribution: organisation=sgn,FACT1=1; Interspeech ; Conference date: 01-01-1900",
     year = "2011",
@@ -5460,7 +5460,7 @@
 }
 
 @inproceedings{2020_InterSpecch,
-    author = {R{\"a}s{\"a}nen, Okko and {Cruz Blandon}, Maria},
+    author = {R{\"a}s{\"a}nen, Okko and Cruz Blandon, Maria},
     title = "Unsupervised Discovery of Recurring Speech Patterns using Probabilistic Adaptive Metrics",
     abstract = "Unsupervised spoken term discovery (UTD) aims at finding recurring segments of speech from a corpus of acoustic speech data. One potential approach to this problem is to use dynamic time warping (DTW) to find well-aligning patterns from the speech data. However, automatic selection of initial candidate segments for the DTW-alignment and detection of “sufficiently good” alignments among those require some type of predefined criteria, often operationalized as threshold parameters for pair-wise distance metrics between signal representations. In the existing UTD systems, the optimal hyperparameters may differ across datasets, limiting their applicability to new corpora and truly low-resource scenarios. In this paper, we propose a novel probabilistic approach to DTW-based UTD named as PDTW. In PDTW, distributional characteristics of the processed corpus are utilized for adaptive evaluation of alignment quality, thereby enabling systematic discovery of pattern pairs that have similarity what would be expected by coincidence. We test PDTW on Zero Resource Speech Challenge 2017 datasets as a part of 2020 implementation of the challenge. The results show that the system performs consistently on all five tested languages using fixed hyperparameters, clearly outperforming the earlier DTW-based system in terms of coverage of the detected patterns.",
     note = "jufoid=59094; INTERSPEECH ; Conference date: 14-09-2020 Through 18-09-2020",
@@ -5475,7 +5475,7 @@
 }
 
 @inproceedings{2021_EUSIPCO_e,
-    author = {Venkatakrishnan, {Arjun Venkat} and Pertil{\"a}, Pasi and Parviainen, Mikko},
+    author = {Venkatakrishnan, Arjun Venkat and Pertil{\"a}, Pasi and Parviainen, Mikko},
     title = "Tampere University Rotated Circular Array Dataset",
     abstract = "Advancements in deep learning have resulted in new techniques to address sophisticated audio processing tasks, such as sound localization and recognition. However, supervised training of deep neural networks (DNNs) requires a significant amount of training data. Existing datasets are either recorded or allow synthetic recordings through impulse responses (IRs) via convolution. Recorded datasets often lack sufficient and versatile material for supervised DNN training. On the other hand, impulse response databases allow large scale dataset creation, provided that suitable IRs are available. However, existing IR datasets do not cater to the data requirements of moving and crossing sources problem in sound localization, due to insufficient angular resolution. This work introduces a versatile room IR dataset to address this problem. Various diverse environments such as office rooms, meeting rooms, corridor, and an anechoic chamber are chosen for the data collection. The chosen rooms have varying characteristics, such as reverberation times (T60) and volumes. The data is collected by placing the speaker at three different distances from a rotated microphone array, thus mimicking the moving source condition. Direction of arrival (DoA) estimation is performed by spatializing the sound signal with the collected IRs to verify their quality. The dataset will be publicly available.",
     keywords = "Training, Location awareness, Deep learning, Direction-of-arrival estimation, Training data, Data collection, Microphone arrays, sound localization, deep learning, direction of arrival, impulse responses",
@@ -5505,7 +5505,7 @@
 }
 
 @article{2023_f,
-    author = {Airaksinen, Manu and Taylor, Elisa and Gallen, Anastasia and Il{\'e}n, Elina and Saari, Antti and Sankilampi, Ulla and R{\"a}s{\"a}nen, Okko and Haataja, {Leena M.} and Vanhatalo, Sampsa},
+    author = {Airaksinen, Manu and Taylor, Elisa and Gallen, Anastasia and Il{\'e}n, Elina and Saari, Antti and Sankilampi, Ulla and R{\"a}s{\"a}nen, Okko and Haataja, Leena M. and Vanhatalo, Sampsa},
     title = "Charting infants{\textquoteright} motor development at home using a wearable system: validation and comparison to physical growth charts",
     abstract = {Background: Early neurodevelopmental care and research are in urgent need of practical methods for quantitative assessment of early motor development. Here, performance of a wearable system in early motor assessment was validated and compared to developmental tracking of physical growth charts. Methods: Altogether 1358 h of spontaneous movement during 226 recording sessions in 116 infants (age 4–19 months) were analysed using a multisensor wearable system. A deep learning-based automatic pipeline quantified categories of infants' postures and movements at a time scale of seconds. Results from an archived cohort (dataset 1, N = 55 infants) recorded under partial supervision were compared to a validation cohort (dataset 2, N = 61) recorded at infants{\textquoteright} homes by the parents. Aggregated recording-level measures including developmental age prediction (DAP) were used for comparison between cohorts. The motor growth was also compared with respective DAP estimates based on physical growth data (length, weight, and head circumference) obtained from a large cohort (N = 17,838 infants; age 4–18 months). Findings: Age-specific distributions of posture and movement categories were highly similar between infant cohorts. The DAP scores correlated tightly with age, explaining 97–99\\% (94–99\\% CI 95) of the variance at the group average level, and 80–82\\% (72–88\\%) of the variance in the individual recordings. Both the average motor and the physical growth measures showed a very strong fit to their respective developmental models (R2 = 0.99). However, single measurements showed more modality-dependent variation that was lowest for motor (σ = 1.4 [1.3–1.5 CI 95] months), length (σ = 1.5 months), and combined physical (σ = 1.5 months) measurements, and it was clearly higher for the weight (σ = 1.9 months) and head circumference (σ = 1.9 months) measurements. Longitudinal tracking showed clear individual trajectories, and its accuracy was comparable between motor and physical measures with longer measurement intervals. Interpretation: A quantified, transparent and explainable assessment of infants' motor performance is possible with a fully automated analysis pipeline, and the results replicate across independent cohorts from out-of-hospital recordings. A holistic assessment of motor development provides an accuracy that is comparable with the conventional physical growth measures. A quantitative measure of infants{\textquoteright} motor development may directly support individual diagnostics and care, as well as facilitate clinical research as an outcome measure in early intervention trials. Funding: This work was supported by the Finnish Academy ( 314602, 335788, 335872, 332017, 343498), Finnish Pediatric Foundation (Lastentautiens{\"a}{\"a}ti{\"o}), Aivos{\"a}{\"a}ti{\"o}, Sigrid Jus{\'e}lius Foundation, and HUS Children's Hospital/ HUS diagnostic center research funds.},
     keywords = "Cerebral palsy, Human activity recognition, Milestones, Motor development, Neurodevelopment, Out-of-hospital",
@@ -5549,7 +5549,7 @@
 }
 
 @article{2025_g,
-    author = {{Cruz Bland{\'o}n}, {Mar{\'i}a Andrea} and Gonzalez-Gomez, Nayeli and Lavechin, Marvin and R{\"a}s{\"a}nen, Okko},
+    author = {Cruz Bland{\'o}n, Mar{\'i}a Andrea and Gonzalez-Gomez, Nayeli and Lavechin, Marvin and R{\"a}s{\"a}nen, Okko},
     title = "Simulating prenatal language exposure in computational models: An exploration study",
     abstract = "Researchers have hypothesized that infant language learning starts from the third trimester of pregnancy. This is supported by studies with fetuses and newborns showing discrimination/preference for their native language. Jointly with empirical research, initial computational modeling studies have investigated whether learning language patterns from speech input benefits from auditory prenatal language exposure (PLE), showing some advantages for prior adaptation to speech-like patterns. However, these modeling studies have not modeled prenatal speech input in an ecologically representative manner regarding quality or quantity. This study describes an ecologically representative framework for modeling PLE for full-term and preterm infants. The approach is based on empirical estimates of the amount of prenatal speech input together with a model of speech signal attenuation from the external air to the fetus{\textquoteright} auditory system. Using this framework, we conduct language learning simulations with computational models that learn from acoustic speech input in an unsupervised manner. We compare the effects of PLE to standard learning from only postnatal input on various early language phenomena. The results show how incorporating PLE can affect models{\textquoteright} learning outcomes, including differences between full-term and preterm conditions. Moreover, PLE duration might influence model behavior, depending on the linguistic capability being tested. While the inclusion of PLE did not improve the compatibility of the tested models with empirical infant data, our study highlights the relevance of PLE as a factor in modeling studies. Moreover, it provides a basic framework for modeling the prenatal period in future computational studies.",
     keywords = "Child language development, Computational modeling, Language acquisition, Prenatal language exposure",
@@ -5579,7 +5579,7 @@
 }
 
 @inproceedings{2016,
-    author = "Naithani, Gaurav and Parascandolo, Giambattista and Barker, Thomas and Pontoppidan, {Niels Henrik} and Virtanen, Tuomas",
+    author = "Naithani, Gaurav and Parascandolo, Giambattista and Barker, Thomas and Pontoppidan, Niels Henrik and Virtanen, Tuomas",
     title = "Low-Latency Sound Source Separation Using Deep Neural Networks",
     abstract = "Sound source separation at low-latency requires that each incoming frame of audio data be processed at very low delay, and outputted as soon as possible. For practical purposes involving human listeners, a 20 ms algorithmic delay is the uppermost limit which is comfortable to the listener. In this paper, we propose a low-latency (algorithmic delay <20 ms) deep neural network (DNN) based source separation method. The proposed method takes advantage of an extended past context, outputting soft time-frequency masking filters which are then applied to incoming audio frames to give better separation performance as compared to NMF baseline. Acoustic mixtures from five pairs of speakers from CMU Arctic database [1] were used for the experiments. At least 1 dB average improvement in source to distortion ratios (SDR) was observed in our DNN-based system over a low-latency NMF baseline for different processing and analysis frame lengths. The effect of incorporating previous temporal context into DNN inputs yielded significant improvements in SDR for short processing frame lengths.",
     year = "2016",
@@ -5711,7 +5711,7 @@
 }
 
 @article{2015_DSP,
-    author = "{\c S}im{\c s}ekli, Umut and Virtanen, Tuomas and Cemgil, {Ali Taylan}",
+    author = "{\c S}im{\c s}ekli, Umut and Virtanen, Tuomas and Cemgil, Ali Taylan",
     title = "Non-negative tensor factorization models for Bayesian audio processing",
     abstract = "We provide an overview of matrix and tensor factorization methods from a Bayesian perspective, giving emphasis on both the inference methods and modeling techniques. Factorization based models and their many extensions such as tensor factorizations have proved useful in a broad range of applications, supporting a practical and computationally tractable framework for modeling. Especially in audio processing, tensor models help in a unified manner the use of prior knowledge about signals, the data generation processes as well as available data from different modalities. After a general review of tensor models, we describe the general statistical framework, give examples of several audio applications and describe modeling strategies for key problems such as deconvolution, source separation, and transcription.",
     keywords = "Bayesian audio modeling, Bayesian inference, Coupled factorization, Nonnegative matrix and tensor factorization",
@@ -5765,7 +5765,7 @@
 }
 
 @inproceedings{2016_IJCNN,
-    author = "Cakir, Emre and Ozan, {Ezgi Can} and Virtanen, Tuomas",
+    author = "Cakir, Emre and Ozan, Ezgi Can and Virtanen, Tuomas",
     title = "Filterbank Learning for Deep Neural Network Based Polyphonic Sound Event Detection",
     abstract = "Deep learning techniques such as deep feedforward neural networks and deep convolutional neural networks have recently been shown to improve the performance in sound event detection compared to traditional methods such as Gaussian mixture models. One of the key factors of this improvement is the capability of deep architectures to automatically learn higher levels of acoustic features in each layer. In this work, we aim to combine the feature learning capabilities of deep architectures with the empirical knowledge of human perception. We use the first layer of a deep neural network to learn a mapping from a high-resolution magnitude spectrum to smaller amount of frequency bands, which effectively learns a filterbank for the sound event detection task. We initialize the first hidden layer weights to match with the perceptually motivated mel filterbank magnitude response. We also integrate this initialization scheme with context windowing by using an appropriately constrained deep convolutional neural network. The proposed method does not only result with better detection accuracy, but also provides insight on the frequencies deemed essential for better discrimination of given sound events.",
     year = "2016",
@@ -5860,7 +5860,7 @@
 }
 
 @article{2011_b,
-    author = "Gemmeke, {Jort F.} and Virtanen, Tuomas and Hurmalainen, Antti",
+    author = "Gemmeke, Jort F. and Virtanen, Tuomas and Hurmalainen, Antti",
     title = "Exemplar-Based Sparse Representations for Noise Robust Automatic Speech Recognition",
     note = "Contribution: organisation=sgn,FACT1=1",
     year = "2011",
@@ -5875,7 +5875,7 @@
 }
 
 @book{2016_a,
-    editor = "Virtanen, Tuomas and Mesaros, Annamaria and Heittola, Toni and Plumbley, {Mark D.} and Foster, Peter and Benetos, Emmanouil and Lagrange, Mathieu",
+    editor = "Virtanen, Tuomas and Mesaros, Annamaria and Heittola, Toni and Plumbley, Mark D. and Foster, Peter and Benetos, Emmanouil and Lagrange, Mathieu",
     title = "Proceedings of the Detection and Classification of Acoustic Scenes and Events 2016 Workshop (DCASE2016)",
     year = "2016",
     language = "English",
@@ -5883,7 +5883,7 @@
 }
 
 @inproceedings{2013_ISCA,
-    author = "Wu, Zhizheng and Virtanen, Tuomas and Kinnunen, Tomi and Chng, {Eng Siong} and Li, Haizhou",
+    author = "Wu, Zhizheng and Virtanen, Tuomas and Kinnunen, Tomi and Chng, Eng Siong and Li, Haizhou",
     title = "Exemplar-based voice conversion using non-negative spectrogram deconvolution",
     note = "Contribution: organisation=sgn,FACT1=1<br/>Portfolio EDEND: 2013-10-29<br/>Publisher name: International Speech Communication Association ISCA; ISCA Speech Synthesis Workshop ; Conference date: 01-01-2013",
     year = "2013",
@@ -5927,7 +5927,7 @@
 }
 
 @book{2017_e,
-    author = "Virtanen, Tuomas and Mesaros, Annamaria and Heittola, Toni and Diment, Aleksandr and Vincent, Emmanuel and Benetos, Emmanouil and Elizalde, {Benjamin Martinez}",
+    author = "Virtanen, Tuomas and Mesaros, Annamaria and Heittola, Toni and Diment, Aleksandr and Vincent, Emmanuel and Benetos, Emmanouil and Elizalde, Benjamin Martinez",
     title = "Proceedings of the Detection and Classification of Acoustic Scenes and Events 2017 Workshop (DCASE2017)",
     year = "2017",
     month = "November",
@@ -6021,7 +6021,7 @@
 }
 
 @inproceedings{2011_ICA,
-    author = {Pertil{\"a}, Pasi and Mieskolainen, Mikael and H{\"a}m{\"a}l{\"a}inen, {Matti S.}},
+    author = {Pertil{\"a}, Pasi and Mieskolainen, Mikael and H{\"a}m{\"a}l{\"a}inen, Matti S.},
     title = "Closed-Form Self-Localization of Asynchronous Microphone Arrays",
     note = "ei ut-numeroa 26.4.2014<br/>Contribution: organisation=sgn,FACT1=1",
     year = "2011",
@@ -6036,7 +6036,7 @@
 }
 
 @inproceedings{2018_IJCNN_b,
-    author = "Drossos, Konstantinos and Mimilakis, {Stylianos Ioannis} and Serdyuk, Dmitriy and Schuller, Gerald and Virtanen, Tuomas and Bengio, Yoshua",
+    author = "Drossos, Konstantinos and Mimilakis, Stylianos Ioannis and Serdyuk, Dmitriy and Schuller, Gerald and Virtanen, Tuomas and Bengio, Yoshua",
     title = "MaD TwinNet: Masker-Denoiser Architecture with Twin Networks for Monaural Sound Source Separation",
     abstract = "Monaural singing voice separation task focuses on the prediction of the singing voice from a single channel music mixture signal. Current state of the art (SOTA) results in monaural singing voice separation are obtained with deep learning based methods. In this work we present a novel recurrent neural approach that learns long-term temporal patterns and structures of a musical piece. We build upon the recently proposed Masker-Denoiser (MaD) architecture and we enhance it with the Twin Networks, a technique to regularize a recurrent generative network using a backward running copy of the network. We evaluate our method using the Demixing Secret Dataset and we obtain an increment to signal-to-distortion ratio (SDR) of 0.37 dB and to signal-to-interference ratio (SIR) of 0.23 dB, compared to previous SOTA results.",
     year = "2018",
