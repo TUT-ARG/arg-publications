@@ -126,9 +126,9 @@ def main(argv):
         # Go through entries
         for entry_key in entries:
             # Get lastname of first author
-            author = str(bib_data.entries[entry_key].persons['author'][0].last_names[0])
-            if '\\' in author:
-                author = LatexNodes2Text().nodelist_to_text(LatexWalker(author).get_latex_nodes()[0])
+            #author = str(bib_data.entries[entry_key].persons['author'][0].last_names[0])
+            #if '\\' in author:
+            #    author = LatexNodes2Text().nodelist_to_text(LatexWalker(author).get_latex_nodes()[0])
 
             # Get title
             title = bib_data.entries[entry_key].fields.get('title')
@@ -139,8 +139,8 @@ def main(argv):
             year = int(bib_data.entries[entry_key].fields.get('year'))
 
             # Generate key for the entry
-            key = '{year}_{author}_{title}'.format(
-                author=unidecode(author),
+            key = '{year}_{title}'.format(
+                #author=unidecode(author),
                 year=year,
                 title=title.lower().replace(' ','').replace(',','').replace('{','').replace('}','').replace(':','').replace('-','').replace('(','').replace(')','')
             )
@@ -175,7 +175,7 @@ def main(argv):
                 pub = '_phd'
 
             # Generate public entry key, and store it
-            public_entry_key = '{author}{year}{pub}'.format(author=author, year=year, pub=pub)
+            public_entry_key = '{year}{pub}'.format(year=year, pub=pub)
             if public_entry_key not in public_entry_keys:
                 public_entry_keys.append(public_entry_key)
 
@@ -199,7 +199,7 @@ def main(argv):
                 unique_entries.append(key)
 
             else:
-                print('    Dup [{author} {year}, {title}]'.format(author=author, year=year, title=title))
+                print('    Dup [{year}, {title}]'.format(year=year, title=title))
 
     # Save bibtex
     all_bib_data.to_file(file=target_collection)
