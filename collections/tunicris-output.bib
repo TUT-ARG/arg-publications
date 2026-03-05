@@ -265,18 +265,6 @@ number    = "3"
 }
 
 
-@conference{8131794c5bea4c7b954691946c6c3b1b,
-title    = "Building a Naturalistic and Representative Affective Speech Corpus for the Finnish Language",
-abstract = "Spoken language contains affective (emotional) information, which is conveyed by suprasegmental variation (e.g prosody and phonation) in speech as well as by other situational variation such as word choices along with dialectal, syntactic and semantic variation. The information is ultimately perceived by the listener as subjective interpretations. While affect is part of everyday conversational communication, there is little existing research on expression and perception of affect in spoken Finnish [8][7], not to mention across different idiolectal subgroups such as speakers of different age or dialectal background. Since expression and interpretation of affect in language is known to depend on cultural and social conventions, better understanding of the expression of affect in Finnish would be desirable. The goal of our work is to research how affect is expressed in everyday spoken Finnish using large-scale data. A prerequisite for our research on affective language is a speech corpus containing unscripted audio recordings of speech paired with metadata (or annotations) containing information about the affective expression. However, we are aware of only two Finnish speech corpora related to affect, both consisting of acted emotional expressions while reading a pre-defined script and consisting only a small amount of speech in total [1][5]. In contrast, several large-scale datasets containing unscripted speech in Finnish exists [4][2][6], but they lack affect related metadata. Building an affective speech corpus can be done in several ways, typically by recording acted speech in a controlled setting or utilizing publicly available free speech audio sources from different medias such as podcasts, radio or television. The trade-off when building these types of datasets is typically between the richness and balance of affective expression present in the data and the level of information the dataset contains about the expression in the data [3]. In this presentation, we will describe our approach to compiling a spoken Finnish dataset for the study of affective expression by combining the LahjoitaPuhetta, HelPuhe and TamPuhe datasets. The dataset will be built by aligning the audio recordings with their respective text transcriptions and split into individual utterance samples (consisting of audio and text). Each utterance sample in the dataset will be augmented with a text sentiment, speech-to-noise ratio and audio based emotion estimates first by using automated tools and finally annotating a subset of samples manually. The final dataset can be used to build better tools for automated affect related annotation providing more options for researching affect and idiolectical variation using large-scale data. The work is a part of the CONVERGENCE-project at Tampere University, funded by the Jane and Aatos Erkko Foundation.",
-author   = "Kalle Lahtinen and Liisa Mustanoja and Okko R{\"a}s{\"a}nen",
-year     = "2024",
-month    = apr,
-language = "English",
-pages    = "1--1",
-note     = "Fonetiikan P{\"a}iv{\"a}t 2024 ; Conference date: 25-04-2024 Through 26-04-2024",
-url      = "https://cs.ttu.ee/events/fp2024/"
-}
-
 
 @article{247948f78c44469f8cae05b0cc120d9e,
 title     = "A comparative study of automatic vowel articulation index and auditory-perceptual assessments of speech intelligibility in Parkinson{\textquoteright}s disease",
@@ -455,17 +443,6 @@ address   = "United States"
 }
 
 
-@conference{38b2c2cc6c2f4812bd9b87e83e22a683,
-title    = "Modeling Child Language Development using Naturalistic Data at a Scale",
-abstract = "These include learning of the language{\textquoteright}s phonetic units, segmentation of words from running speech, association word forms with their meanings, and acquisition of the syntax. Typical empirical research on child language development (CLD) consists of well-controlled focused studies conducted in laboratory conditions. In contrast, only a few high-level theories, like NLM-e (Kuhl et al., 2008) and PRIMIR (Werker \& Curtin, 2005), have aimed to integrate the present understanding of CLD into unified frameworks. However, these frameworks have not gained unanimous acceptance in the field, largely since they are relatively abstract, and only qualitatively describe the mechanisms and representations that could be involved in CLD. As a result, we still have limited understanding of the basic mechanisms and their interactions driving early language acquisition. In principle, computational modelling of CLD is a potential solution to the so-called “integration problem” across empirical findings. This is because computational models can, and must, explicitly address all aspects of the information processing chain from input data to the resulting behavior. By formulating the theories as high-level computational goals and operations, implementing them as functional signal processing and machine learning algorithms, and finally exposing the models to realistic input data comparable to what real infants experience, ecological plausibility and validity of the underlying theories can be explicitly tested. However, the scientific impact of the existing modeling efforts has also been limited. Instead of addressing multiple aspects of language in one model, earlier models have usually focused on individual language phenomena (e.g., phonemic learning or word segmentation). Moreover, they have rarely investigated learning as a function of the developmental timeline of the learner. We argue that two main factors currently hinder the development of more comprehensive, ecologically valid, and thus influential models of CLD: 1) lack of ecologically valid and openly available large-scale speech data to simulate child language experiences at a realistic scale, where various adult speech corpora are currently used instead, and 2) limited validation of the models with respect to empirical data on real infant language learning, where the current standard approach is to evaluate the models against linguistic theory of how speech is formally structured. Without fixing the data and evaluation problems, it is difficult to develop models that could truly help us to understand the big picture of CLD. In this talk, we provide an overview of our ongoing “Modeling Child Language Development using Naturalistic Data at a Scale” (L-SCALE) project, where the aim is to enable development of more comprehensive and ecologically valid computational models of CLD. To achieve this, the L-SCALE project tackles the two challenges identified above: 1) solving the ecologically valid training data problem by creating a pipeline called Generator of Infant Language ExperienceS (GILES) for generation of ecologically relevant large-scale training data for computational models, and 2) solving the mismatch between human data and computational model evaluation by developing evaluation protocols that enable comparison of computational models against empirical data on CLD as a function of learner{\textquoteright}s age. We will also showcase some recent developments of the project, including a proof- of-concept demonstration of the GILES pipeline and a meta-analytic approach to compare models to empirical data on infant language learning. The L-SCALE project is funded by Kone Foundation (2022–2026).",
-author   = "Okko R{\"a}s{\"a}nen and Cruz Blandon, Maria and Khazar Khorrami and Daniil Kocharov",
-year     = "2024",
-language = "English",
-pages    = "5--5",
-note     = "Finnic Phonetics Symposium ; Conference date: 25-04-2024 Through 26-04-2024"
-}
-
-
 @inproceedings{6ae770bbcf0645ea9c7d76e83d7e615d,
 title     = "Multi-Label Zero-Shot Audio Classification with Temporal Attention",
 abstract  = "Zero-shot learning models are capable of classifying new classes by transferring knowledge from the seen classes using auxiliary information. While most of the existing zero-shot learning methods focused on single-label classification tasks, the present study introduces a method to perform multi-label zero-shot audio classification. To address the challenge of classifying multi-label sounds while generalizing to unseen classes, we adapt temporal attention. The temporal attention mechanism assigns importance weights to different audio segments based on their acoustic and semantic compatibility, thus enabling the model to capture the varying dominance of different sound classes within an audio sample by focusing on the segments most relevant for each class. This leads to more accurate multi-label zero-shot classification than methods employing temporally aggregated acoustic features without weighting, which treat all audio segments equally. We evaluate our approach on a subset of AudioSet against a zero-shot model using uniformly aggregated acoustic features, a zero-rule baseline, and the proposed method in the supervised scenario. Our results show that temporal attention enhances the zero-shot audio classification performance in multi-label scenario.",
@@ -575,29 +552,9 @@ note      = "Annual Conference of the International Speech Communication Associa
 }
 
 
-@conference{fc3c30e41724498eb3e5a0db35d531a3,
-title    = "The effect of F0 measurements on prosody analysis in language development studies",
-abstract = "Prosodic research on child-directed speech (CDS) usually focuses on measurements of F0 mean and standard deviation (SD). In general, there is an agreement that CDS has higher pitch mean and variability than ADS (adult-directed speech). However, earlier studies have reported conflicting findings on how F0 of CDS changes with the recipient child{\textquoteright}s age, as there is evidence for both presence and absence of age-related change of pitch variability. One possibility is that the disagreement might originate from the variability of speech behaviors of speakers in different languages and cultures. Alternatively, it could be explained by the F0 measurement methodology as well. In this work, we investigate how the way we measure F0 influences the overall results on CDS change with child age. We investigated two different factors which could influence melodic analysis of speech: a) what sound segments are used to measure F0: vowels, sonorants, voiced obstruents, no account for sound segments; and b) whether the number of words within an utterance is taken into account in the analysis. We used a dataset of maternal utterances from the Providence Corpus (a collection of twice-monthly recordings of hour-long mother-child spontaneous interactions from six NA-English-speaking children) addressed at children in the age range of 1;0 to 3;0. The F0 values were calculated using OpenSMILE toolkit. The transcription-to-speech alignment was performed using WebMAUS online toolkit. The age-dependency of F0 feature was tested by means of the Spearman{\textquoteright}s rank correlation coefficient between quantized child age and the feature values associated with the age bin. The results show that the estimation procedure can affect the findings, potentially affecting developmental interpretations. In case of calculating F0 on either voiced consonants and vowels, or vowels only, there is a significant age-dependent increase of F0 SD. This is in contrast to the case of using all F0 values calculated within an utterance by F0 detection algorithm, when no significant age-dependency for F0 SD is found. Thus, it matters whether we take into account segments that are known to have proper voicing or measure F0 from all speech that an automatic F0 estimator considers as voiced irrespectively of the underlying segments. Second, we found no age-related dependencies of F0 SD (whether we took sound segment identities into account or not) for the scenario where the analysis was controlled for the number of words within an utterance, i.e. comparing one-word utterances across all ages, two-word utterances across all ages, etc. The revealed age-dependency of F0 SD for the first scenario might be explained constantly increasing length of utterances in CDS in terms of number of pronounced words along with a child age. This is since the number of pronounced words in an utterance might influence melodic variability within the utterance, where more complex intonational structure may be required to prosodically structure the longer utterances.",
-author   = "Daniil Kocharov and Okko R{\"a}s{\"a}nen",
-year     = "2024",
-language = "English",
-pages    = "22--22",
-note     = "Fonetiikan p{\"a}iv{\"a}t 2024 (The 36th Finnic Phonetics Symposium) ; Conference date: 25-04-2024 Through 26-04-2024",
-url      = "https://cs.ttu.ee/events/fp2024/"
-}
 
 
-@conference{0fd5855d79954001b1b0bd6779de7829,
-title    = "Human and Machine Perception of Affect in Speech",
-abstract = "This poster presents the motivation, methods and goals for a research project on modeling and studying expression of affect in Finnish language. The project combines machine learning and signal processing methods with linguistic knowledge on affect expression. The research aims at finding ways to recognize how affect is expressed by individual speakers in different speaking conditions (differentiating what is being said from how things are being said) and how affect expressed in spoken language relates to affect expressed in, and implied by, written language. The research is planned to span over a four year period, during which a corpus (dataset) of emotional Finnish speech will be collected, analyzed, and processed for modelling purposes. Based on this data, a speech emotion classifier for conversational Finnish will be developed and later further improved to enable the study and automatic recognition of idiolectical variation of affect expression. Results of the project can be used for improved affective AI systems that are able to understand the richness of human emotions in spoken communication in various circumstances by various speakers and listeners.",
-keywords = "speech processing, artificial inteligence, machine learning, affective computing, linguistic variation and change, audio, phonology",
-author   = "Kalle Lahtinen and Liisa Mustanoja and Juraj Simko and Okko R{\"a}s{\"a}nen",
-year     = "2023",
-month    = oct,
-language = "English",
-pages    = "1--5",
-note     = "26th International Academic Mindtrek Conference, ACADEMIC MINDTRICK 2023 ; Conference date: 03-10-2023 Through 06-10-2023"
-}
+
 
 
 @inproceedings{d518ea4c470c442c8d0ebc537b271de4,
@@ -1334,14 +1291,6 @@ publisher = "Springer Nature",
 number    = "2"
 }
 
-
-@conference{b49f3830b08340fabd1a41c86ff7d054,
-title    = "Analysis of Automatic Vowel Articulation Index Software",
-author   = "Rachel Convey and Nelly Penttil{\"a} and Tiina Ihalainen and Yuanyuan Liu and Okko R{\"a}s{\"a}nen and Juulia Lintula",
-year     = "2021",
-language = "English",
-note     = "ASHA Convention ; Conference date: 15-11-2021 Through 22-11-2021"
-}
 
 
 @article{fdd361e825854c1b9040136ebdc3363f,
