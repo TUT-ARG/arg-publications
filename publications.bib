@@ -69,7 +69,7 @@
 }
 
 @article{2019_AES,
-    author = {Alary, Benoit and Politis, Archontis and Schlecht, {Sebastian J.} and V{\"a}lim{\"a}ki, Vesa},
+    author = {Alary, Benoit and Politis, Archontis and Schlecht, Sebastian and V{\"a}lim{\"a}ki, Vesa},
     title = "Directional feedback delay network",
     abstract = "Artificial reverberation algorithms are used to enhance dry audio signals. Delay-based reverberators can produce a realistic effect at a reasonable computational cost. While the recent popularity of spatial audio algorithms is mainly related to the reproduction of the perceived direction of sound sources, there is also a need to spatialize the reverberant sound field. Usually multichannel reverberation algorithms output a series of decorrelated signals yielding an isotropic energy decay. This means that the reverberation time is uniform in all directions. However, the acoustics of physical spaces can exhibit more complex direction-dependent characteristics. This paper proposes a new method to control the directional distribution of energy over time, within a delay-based reverberator, capable of producing a directional impulse response with anisotropic energy decay. We present a method using multichannel delay lines in conjunction with a direction-dependent transform in the spherical harmonic domain to control the direction-dependent decay of the late reverberation. The new reverberator extends the feedback delay network, retaining its time-frequency domain characteristics. The proposed directional feedback delay network reverberator can produce non-uniform direction-dependent decay time, suitable for anisotropic decay reproduction on a loudspeaker array or in binaural playback through the use of ambisonics.",
     note = {EXT={"}V{\"a}lim{\"a}ki, Vesa{"}},
@@ -432,7 +432,7 @@
 }
 
 @inproceedings{2025_DCASE 2025,
-    author = "Shimada, Kazuki and Politis, Archontis and {R. Roman}, Iran and Sudarsanam, Parthasaarathy and Diaz-Guerra, David and Pandey, Ruchi and Uchida, Kengo and Koyama, Yuichiro and Takahashi, Naoya and Shibuya, Takashi and Takahashi, Shusuke and Virtanen, Tuomas and Mitsufuji, Yuki",
+    author = "Shimada, Kazuki and Politis, Archontis and Roman, Iran and Sudarsanam, Parthasaarathy and Diaz-Guerra, David and Pandey, Ruchi and Uchida, Kengo and Koyama, Yuichiro and Takahashi, Naoya and Shibuya, Takashi and Takahashi, Shusuke and Virtanen, Tuomas and Mitsufuji, Yuki",
     title = "Stereo Sound Event Localization and Detection with Onscreen/offscreen Classification",
     abstract = "This paper presents the objective, dataset, baseline, and metrics of Task 3 of the DCASE2025 Challenge on sound event localization and detection (SELD). In previous editions, the challenge used four-channel audio formats of first-order Ambisonics (FOA) and microphone array. In contrast, this year's challenge investigates SELD with stereo audio data (termed stereo SELD). This change shifts the focus from more specialized 360\{\textbackslash{}deg\} audio and audiovisual scene analysis to more commonplace audio and media scenarios with limited field-of-view (FOV). Due to inherent angular ambiguities in stereo audio data, the task focuses on direction-of-arrival (DOA) estimation in the azimuth plane (left-right axis) along with distance estimation. The challenge remains divided into two tracks: audio-only and audiovisual, with the audiovisual track introducing a new sub-task of onscreen/offscreen event classification necessitated by the limited FOV. This challenge introduces the DCASE2025 Task3 Stereo SELD Dataset, whose stereo audio and perspective video clips are sampled and converted from the STARSS23 recordings. The baseline system is designed to process stereo audio and corresponding video frames as inputs. In addition to the typical SELD event classification and localization, it integrates onscreen/offscreen classification for the audiovisual track. The evaluation metrics have been modified to introduce an onscreen/offscreen accuracy metric, which assesses the models' ability to identify which sound sources are onscreen. In the experimental evaluation, the baseline system performs reasonably well with the stereo audio data.",
     year = "2025",
@@ -688,7 +688,7 @@
 }
 
 @inproceedings{2022_EUSIPCO_a,
-    author = "{Garcia Barrios}, Guillermo and Krause, Daniel and Politis, Archontis and Mesaros, Annamaria and Gutierrez-Arriola, {Juana M.} and Fraile, Ruben",
+    author = "Garcia-Barrios, Guillermo and Krause, Daniel and Politis, Archontis and Mesaros, Annamaria and Gutierrez-Arriola, Juana and Fraile, Ruben",
     title = "Binaural source localization using deep learning and head rotation information",
     abstract = "This work studies learning-based binaural sound source localization, under the inﬂuence of head rotation in reverberant conditions. Emphasis is on whether knowledge of head rotation can improve localization performance over the non-rotating case for the same acoustic scene. Simulations of binaural head signals of a static and rotating head were conducted, for 5 different rotation speeds and a wide range of reverberant conditions. Several convolutional recurrent neural network models were evaluated including a static head scenario, a model without rotation information, and distinct models differentiated on the way of manipulating the quaternions. The results were analyzed based on the direction-of-arrival error, and they show the importance of using quaternions as additional features, with the best localization accuracy obtained when using an additional convolutional branch that merges the features through addition or concatenation. Nevertheless, raw quaternion features presented lower performance than the static baseline model. Additionally, the study shows the importance of the analysis time window length when using information about head rotation.",
     note = "jufoid=55867; European Signal Processing Conference ; Conference date: 29-08-2022 Through 02-09-2022",
@@ -779,7 +779,7 @@
 }
 
 @inproceedings{2021_WASPAA_b,
-    author = "Hold, Christoph and Schlecht, \{Sebastian J.\} and Politis, Archontis and Pulkki, Ville",
+    author = "Hold, Christoph and Schlecht, Sebastian and Politis, Archontis and Pulkki, Ville",
     title = "Spatial Filter Bank in the Spherical Harmonic Domain: Reconstruction and Application",
     abstract = "Filter banks are an integral part of modern signal processing. They may also be applied to spatial filtering and the employed spatial filters can be designed with a specific shape for the analysis, e. g. suppressing side-lobes. After extracting spatially constrained signals from spherical harmonic (SH) input, i. e. filter bank analysis, many applications demand for a re-synthesis of the associated sector signals to the SH domain. This paper hence derives the complementary spatial filter bank reconstruction. The criterion for perfect reconstruction, and energy preserving reconstruction are given and implemented into the design. The filter bank is formulated such that for axisymmetric patterns both criteria can be met by only minor modification to the reconstruction stage. Its application is then demonstrated for both scenarios, perfect reconstruction and energy preservation of SH input signals.",
     keywords = "Shape, Filtering, Conferences, Filter banks, Signal processing, Spatial filters, Harmonic analysis, Spatial Audio, Spherical Harmonics, Ambisonics, Spatial Filter Bank",
@@ -2404,7 +2404,7 @@
 }
 
 @article{2018_TASLP,
-    author = "Mesaros, Annamaria and Heittola, Toni and Benetos, Emmanouil and Foster, Peter and Lagrange, Mathieu and Virtanen, Tuomas and Plumbley, Mark D.",
+    author = "Mesaros, Annamaria and Heittola, Toni and Benetos, Emmanouil and Foster, Peter and Lagrange, Mathieu and Virtanen, Tuomas and Plumbley, Mark",
     abstract = "Public evaluation campaigns and datasets promote active development in target research areas, allowing direct comparison of algorithms. The second edition of the challenge on Detection and Classification of Acoustic Scenes and Events (DCASE 2016) has offered such an opportunity for development of state-of-the-art methods, and succeeded in drawing together a large number of participants from academic and industrial backgrounds. In this paper, we report on the tasks and outcomes of the DCASE 2016 challenge. The challenge comprised four tasks: acoustic scene classification, sound event detection in synthetic audio, sound event detection in real-life audio, and domestic audio tagging. We present in detail each task and analyse the submitted systems in terms of design and performance. We observe the emergence of deep learning as the most popular classification method, replacing the traditional approaches based on Gaussian mixture models and support vector machines. By contrast, feature representations have not changed substantially throughout the years, as mel frequency-based representations predominate in all tasks. The datasets created for and used in DCASE 2016 are publicly available and are a valuable resource for further research.",
     doi = "10.1109/TASLP.2017.2778423",
     issn = "2329-9290",
@@ -5137,7 +5137,7 @@
 }
 
 @inproceedings{2004_ICA_a,
-    author = "Pertusa, Antonio and Klapuri, Anssi and I{\ n}esta, J.M.",
+    author = "Pertusa, Antonio and Klapuri, Anssi and Inesta, J.",
     editor = "Alberto Sanfeliu, Manuel Lazo",
     address = "Havana, Cuba",
     booktitle = "Progress in Pattern Recognition, Image Analysis and Applications: 10th Iberoamerican Congress on Pattern Recognition",
